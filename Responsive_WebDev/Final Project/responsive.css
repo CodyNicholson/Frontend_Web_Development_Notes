@@ -1,0 +1,99 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+
+.hero, .top-news, .scores, .weather, .recent-news {
+  order: 10;
+}
+
+@media screen and (max-width: 610px) {
+  .header__logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+  .header__title {
+    margin-left: 0;
+    font-size: 2em;
+    vertical-align: bottom; 
+  }
+  .nav {
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    position: absolute;
+    /* This transform moves the drawer off canvas. */
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    /* Animates the drawer. */
+    transition: transform 0.3s ease;
+  }
+  .nav.open {
+    /* Moves the nav menu onto the screen */
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .nav__item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+  }
+  .header__menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+  .header__menu svg {
+    width: 32px;
+    fill: #E0E0E0;
+  }
+}
+
+@media screen and (min-width: 611px) {
+  /* Puts the hero in front of the weather and sets its width to 60% when the width it more than 611px */
+  .hero {
+    order: 0;
+    width: 60%;
+  }
+  /* Moves the weather up next to the hero and changes its width to 40% */
+  .weather {
+    order: 1;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  /* Changes with of hero to 50% when width is more than 700px */
+  .hero {
+    width: 50%;
+  }
+  /* Changes width of top news to 50% and puts it next to the hero */
+  .top-news {
+    order: 1;
+    width: 50%;
+  }
+  /* Changes width of scores  to 60%and puts it next to the top-news */
+  .scores {
+    order: 2;
+    width: 60%;
+  }
+  /* Puts weather next to the scores */
+  .weather {
+    order: 3;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  main, .header__inner, .nav, .content {
+    /* Adds margins and sets the webpage width to a fixed 850px when the width is over 850px */
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

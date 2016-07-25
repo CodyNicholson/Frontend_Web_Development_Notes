@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Column Drop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+      @import url(https://fonts.googleapis.com/css?family=Roboto);
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        min-height: 150px;
+        width: 100%;
+      }
+
+      .green {
+        background-color: #0C8542;
+        order: 1;
+        width: 100%;
+      }
+
+      .red {
+        background-color: #EC1D3B;
+        order: 2;
+        width: 100%;
+      }
+
+      .orange {
+        background-color: #F79420;
+        order: 3;
+        width: 100%;
+      }
+    </style>
+    <style type="text/css">
+
+      @media screen and (min-width: 450px){
+        .green {width: 25%;}
+        .red {width: 75%;}
+      }
+
+      @media screen and (min-width: 550px){
+        .red {width: 50%;}
+        .orange{width: 25%;}
+      }
+
+      @media screen and (min-width: 700px){
+          .container{
+              width: 700px;
+              margin-left: auto;
+              margin-right: auto;
+          }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box green"></div>
+      <div class="box red"></div>
+      <div class="box orange"></div>
+    </div>
+  </body>
+</html>

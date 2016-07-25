@@ -1,0 +1,92 @@
+body {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.snippet__thumbnail > img {
+  width: 100%;
+}
+
+.snippet {
+  /* I use flexbox to order my web elements in rows, not columns */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.snippet__title {
+  order: 0;
+  width: 100%;
+  margin: 0 0 0.5em;
+}
+
+.snippet__thumbnail {
+  order: 1;
+  width: 30%;
+}
+
+.snippet__description {
+  order: 2;
+  width: 70%;
+  margin: 0;
+  padding: 0 0 0 1em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 450px) {
+  /* Will not display the thumbnail until the width is over 450px */
+  .snippet__thumbnail {
+    display: none;
+  }
+  /* Description will change from width: 70% to 100% with no padding */
+  .snippet__description {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /* Will not display the scores table location column until the width is over 550px */
+  .scores__table .scores__location {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .snippet__title {
+  }
+
+  .snippet__thumbnail {
+    width: 30%;
+    margin: 0;
+  }
+
+  .snippet__description {
+    -webkit-line-clamp: 3;
+    max-height: 3.7em;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  /* Changes the height of the thumbnail and deletes the right margin when the width is under 650px */
+  .snippet__thumbnail {
+    width: 30%;
+    height: 150px;
+    margin-right: 0;
+  }
+  /* Changes the height of the description */
+  .snippet__description {
+    -webkit-line-clamp: 4;
+    max-height: 4.9em
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+  /* Makes the score table font size smaller when the width is over 700px */
+  .scores__table {
+    font-size: 12px;
+  }
+}

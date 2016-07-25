@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mostly Fluid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+      @import url(https://fonts.googleapis.com/css?family=Roboto);
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        min-height: 150px;
+      }
+
+      .dark_blue {
+        background-color: #2A457A;
+        color: #efefef;
+        order: 1;
+        width: 100%;
+      }
+
+      .light_blue {
+        background-color: #099DD9;
+        order: 2;
+        width: 100%;
+      }
+
+      .green {
+        background-color: #0C8542;
+        order: 3;
+        width: 100%;
+      }
+
+      .red {
+        background-color: #EC1D3B;
+        order: 4;
+        width: 100%;
+      }
+
+      .orange {
+        background-color: #F79420;
+        order: 5;
+        width: 100%;
+      }
+    </style>
+    <style type="text/css">
+
+      @media screen and (min-width: 500px){
+        .light_blue, .green {width: 50%;}
+      }
+
+      @media screen and (min-width: 700px){
+        .red {width: 33%;}
+        .orange{width: 67%;}
+      }
+
+      @media screen and (min-width: 1040px){
+        .container {
+          width: 1040px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box dark_blue"></div>
+      <div class="box light_blue"></div>
+      <div class="box green"></div>
+      <div class="box red"></div>
+      <div class="box orange"></div>
+    </div>
+  </body>
+</html>
