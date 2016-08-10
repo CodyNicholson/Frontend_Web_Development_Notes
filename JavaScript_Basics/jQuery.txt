@@ -1,0 +1,1 @@
+Anything that uses this syntax '$(".className")' is jQuery. This grabs any element on the page of class 'className'
