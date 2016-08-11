@@ -15,6 +15,10 @@ $('#main')
 
 
 
+ANY vaild CSS selector is also a jQuery selector!
+
+
+
 In a js file:
 
 
