@@ -20,12 +20,3 @@ Will adjust the width/height to always be equal or less to the viewport width/he
 width: 100vmax;
 height: 100vmax;
 Will adjust the width/height to always be equal or greater than the viewport width/height
-
-Image types:
-
-Raster - From a camera a grid of colored dots, blurs easily, use JPEG or WebP file format
-Vector - an image consisting of defined shapes, lines, and colors, does not blur, use SVG/PNG file format (not gif)
-
-Workflow Notes:
-
-Don't use large pictures unless your users will be scaling that picture up. Larger images that are scaled down take up more space and load slower.
