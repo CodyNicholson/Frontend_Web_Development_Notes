@@ -1,2 +1,2 @@
-# Web_Development
-Web Development experience I have obtained from Udacity.com and my classes at DePaul University
+# Web Development
+Web Development experience and knowledge I have obtained from my classes at Udacity.com, DePaul University, and Youtube

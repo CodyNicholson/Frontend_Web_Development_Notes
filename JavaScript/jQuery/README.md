@@ -1,2 +1,2 @@
 # jQuery
-This is a collection of code and notes from jQuery class I took on Udacity.com
+jQuery is a JavaScript framework that makes it easy to select different web elements in a DOM tree from a JavaScript file
