@@ -2,9 +2,11 @@
 
 SQLDeveloper is an application that works as a "front-end" connection to a server running Oracle DBMS
 <br>
+
 SQL commands can be run individually, or collected in script files
 <br>
-It is installed in all CDM labs, or can be doqnloaded free from Oracle
+
+It is installed in all CDM labs, or can be downloaded free from Oracle
 
 ***
 
