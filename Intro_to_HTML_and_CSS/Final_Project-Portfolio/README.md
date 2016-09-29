@@ -1,2 +1,2 @@
-# Cody-Nicholson96.github.io
-Code for my portfolio website
+# Final Project - Intro to HTML and CSS
+This directory contains the code for my first portfolio website
