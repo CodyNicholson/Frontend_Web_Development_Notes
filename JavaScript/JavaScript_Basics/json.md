@@ -1,12 +1,12 @@
+#JSON
+
 JSON is an abbreviation for JavaScript Object Notation
 
 JSON is a popular and simple format for storing and transferring nested or hierarchal data
 
-
-
 Example JSON:
 
-
+```javascript
 var bio =
 {
     "name" : "Cody Nicholson",
@@ -25,3 +25,4 @@ var bio =
     ],
     "bioPic" : "images/fry.jpg"
 };
+```
