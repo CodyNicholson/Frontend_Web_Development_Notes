@@ -15,7 +15,7 @@ To fix this you can put this in the 'head' tag:
 ```javascript
 $(function() {
   $('img').attr('src', 'http://placepuppy.it/350/150');
-})
+});
 ```
 
 This will run as soon as the DOM tree is ready because that is when .attr() will be able to find the 'src' attribute and change its value to 'http://placepuppy.it/350/150'
