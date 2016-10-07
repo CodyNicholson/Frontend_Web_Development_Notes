@@ -1,4 +1,4 @@
-#File Sizes and Performance
+#File Formats and Performance for Images
 
 .svg < .jpg < .png < .gif
 
