@@ -1,16 +1,16 @@
-File Sizes:
-
+#File Sizes and Performance
 
 .svg < .jpg < .png < .gif
 
+-
 
-
-Workflow notes:
-
+###Workflow notes:
 
 For Raster images us JPEG or WebP
 
 For Vector images use SVG or PNG (if you have to)
+
+-
 
 Aim to not only have the smallest files, but also the least amount of file requests
 
