@@ -1,19 +1,19 @@
 Steps to adding a modal to your webpage:
 
-
-1. Make sure that these are in the head:
+```HTML
+<!-- 1. Make sure that these are in the head: -->
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 
-2.1 To add to a link to your modal from your image simply add these two attributes to the image tag:
+<!-- 2.1 To add to a link to your modal from your image simply add these two attributes to the image tag: -->
 <img data-toggle="modal" data-target="#idOfYourModal">
 
-2.2 To add a button to open your modal:
+<!-- 2.2 To add a button to open your modal: -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#idOfYourModal">Button Text</button>
 
 
-3.1 Write the html for your modal and put it at the bottom of your html document:
+<!-- 3.1 Write the html for your modal and put it at the bottom of your html document: -->
 
   <div class="modal fade" id="mobileApp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -34,3 +34,4 @@ Steps to adding a modal to your webpage:
           </div>
       </div>
   </div>
+```
