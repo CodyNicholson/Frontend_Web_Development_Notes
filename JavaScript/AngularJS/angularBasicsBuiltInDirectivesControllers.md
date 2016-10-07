@@ -67,7 +67,8 @@ We access properties of scope in our html file like so:
 </div>
 ```
 
-This will print the value of the 'title' property defined in scope in the <h1> element, as if the data was written there
+```
+This will print the value of the 'title' property defined in scope in the 'h1' element, as if the data was written there
 
 We use {{ }} to get the title from scope, this is called an expression in Angular
 
@@ -76,6 +77,7 @@ Notice that we call for the title inside the div that has the controller attache
 Notice that we use JSON dot notation to get the name and money from scope
 
 We pipe the "name", "money", and "birthday" parameters to format how they will display using "|" and filters like 'uppercase', 'currency', and 'date'
+```
 
 -
 
