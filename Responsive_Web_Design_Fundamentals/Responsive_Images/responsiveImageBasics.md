@@ -1,3 +1,5 @@
+#Responsive Image Basics
+
 Total bits = pixels * bits per pixel
 
 Always go for less pixels with better compression
