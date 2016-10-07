@@ -2,9 +2,9 @@ HTML is a structural language for creating webpages, and CSS is a language for s
 
 Both of these languages have their own unique rules and synax
 
+-
 
-Hyper Text Markup Language (HTML):
-
+###Hyper Text Markup Language (HTML)
 
 A html "Tag" is the basic word in the html language, think of a tag as the main building block of the language
 
@@ -12,9 +12,9 @@ The browser turns the tags into elements the form a tree
 
 The browser knows how to do this because of the Document Object Model, otherwise known as the DOM
 
+-
 
-
-Document Object Modal (DOM):
+###Document Object Modal (DOM)
 
 
 Document Object Modal is the standard convention for interacting with elements in HTML
@@ -35,9 +35,9 @@ Each tag can have attributes with values like this div tag has a class attribute
 
 HTML tags and attributes define the structure and content of the page
 
+-
 
-
-Cascading Style Sheet (CSS):
+###Cascading Style Sheet (CSS)
 
 
 CSS stands for Cascading Style Sheet and defines the style of the page, like fonts, colors, positions of elements, etc
@@ -48,10 +48,12 @@ A CSS file must be included in the html files where you want to style
 
 In CSS, when you want to refer to a class, say a class called "main" you write:
 
+```CSS
 .main
 {
     cssAttribute: newValue;
 }
+```
 
 If "main" was an Id then you would write:
 
@@ -72,4 +74,4 @@ In your <head> tag put:
 
 For orgnizations sake, every web element is box shaped on a web page
 
-Start every html file with: <!DOCTYPE html>, and put all the code for that page between an <html> tag
+Start every html file with: <!DOCTYPE html>, and put all the code for that page between an 'html' tag
