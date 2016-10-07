@@ -1,10 +1,10 @@
+#Iterating with the Each Method
+
 The below js function will use the each() jQuery method to iterate through all of the 'p' tags in this html file and print the length of each 'p' tags text (the sum of the characters)
-
-
 
 html:
 
-
+```HTML
 <html lang="en">
 <head>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -61,12 +61,12 @@ html:
     </div>
 </body>
 </html>
-
+```
 
 
 js:
 
-
+```javascript
 function numberAdder ()
 {
     var text, number;
@@ -83,3 +83,4 @@ function numberAdder ()
 
 $('p').each(numberAdder);
 // The each() method will go through every 'p' tag in the html file and execute the numberAdder method on that 'p' tag
+```
