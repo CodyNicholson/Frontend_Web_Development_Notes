@@ -1,7 +1,10 @@
+#Debugging Prit Statements
+
 To do a print statement in js use:
 
+```JavaScript
 console.log("Enter text here");
-
+```
 
 This will print the message and also display 'undefined' to signal the coder that this statement des not return anything.
 
