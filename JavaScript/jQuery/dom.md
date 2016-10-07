@@ -1,13 +1,16 @@
+#Document Object Model
+
 The DOM is best described as a tree
 
-
+```
 Parent  Child  GChild GGChild GGGChild
 
 body --> div --> div-->form-->input
                     L->  ul-->  li
                            L->  li
+```
 
-body is the parent of the first div in this DOM tree, and that first div has two child divs that are both siblings
+Body is the parent of the first div in this DOM tree, and that first div has two child divs that are both siblings
 
 There are two pairs of siblings: form & ul, and li & li
 
