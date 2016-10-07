@@ -26,7 +26,7 @@ Positional Selector: nth-child(2)
 Other Pseudo Selectors: empty
 // Will style all elements with nothing between there tags, example: <h1></h1>, <p></p>
 
-
+-
 
 Other useful ways of selecting elements:
 
