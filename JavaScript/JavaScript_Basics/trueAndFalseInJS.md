@@ -26,7 +26,7 @@ JavaScript has a very unique way of deciding between true and false
 
 -
 
-Example values:
+###Example values
 
 1 = true                  since it's a non-zero number
 
