@@ -1,3 +1,6 @@
+#Adding Child Elements
+
+```javascript
 var fam1, fam2, bruce, madison, hunter;
 
 fam1 = $('family1');
@@ -25,3 +28,4 @@ bruce.append(madison);
 
 bruce.append(hunter);
 // Inserts hunter as the last child of the bruce div, behind the madison div which is the hunter div's sibling
+```
