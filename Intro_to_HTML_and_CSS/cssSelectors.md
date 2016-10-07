@@ -22,9 +22,10 @@ Attribute selector: [anyAttributeName="anyAttributeValue"]
 Positional Selector: nth-child(2)
 // Will style every second element of the html file
 
-
+```
 Other Pseudo Selectors: empty
 // Will style all elements with nothing between there tags, example: <h1></h1>, <p></p>
+```
 
 -
 
