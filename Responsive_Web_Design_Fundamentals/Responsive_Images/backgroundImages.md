@@ -1,10 +1,10 @@
+#Background Images
+
 There are many different effects you can add to a background image to make your site look great:
-
-
 
 Turn a speical text character into a background image using "http://unicode-table.com/en/":
 
-
+```HTML
 <style>
     body {
       align-items: center;
@@ -19,31 +19,33 @@ Turn a speical text character into a background image using "http://unicode-tabl
 </style>
 
 <body>★</body>
+```
 
-// Make sure you have a <meta> tag with unicode 8 on your webpage to do this^
-// Try to always copy the character in like I did the star above, and not use the html code for it (ex: &#119070 is a treble cleft, but its better to just copy and paste the char in instead of its code)
+Make sure you have a <meta> tag with unicode 8 on your webpage to do this^
 
+Try to always copy the character in like I did the star above, and not use the html code for it (ex: &#119070 is a treble cleft, but its better to just copy and paste the char in instead of its code)
 
+-
 
-CSS Cover vs Contain:
-
+###CSS Cover vs Contain:
 
 Cover - Will keep the entire image inside the container for one of its dimensions, and will overflow the other if needed
 
 Contain - Will keep the entire image inside the container even if it means making one of the dimensions smaller than the container
 
+-
 
+###Background Gradient:
 
-Background Gradient:
-
-
+```CSS
 background: linear-gradient(#000, white) no-repeat;
+```
 
+-
 
+###Background checkered gradient:
 
-Background checkered gradient:
-
-
+```CSS
     body {
       background:
       linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -55,11 +57,13 @@ Background checkered gradient:
       background-color: #131313;
       background-size: 20px 20px;
     }
+```
 
-
+-
 
 Have an image change with the size of the viewport and add a transition:
 
+```CSS
 div
 {
     background-image: url(koala.jpg);
@@ -76,3 +80,4 @@ div
         background-image: url(koala_crop.jpg);
     }
 }
+```
