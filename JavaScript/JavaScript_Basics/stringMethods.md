@@ -1,6 +1,8 @@
-.replace():
+#String Methods in Javascript
 
+###.replace():
 
+```javascript
 var awesome = "I am awesome";
 
 var fun = awesome.replace("awesome", "fun");
@@ -10,11 +12,13 @@ $('#main').append(fun);
 // This code will change the message displayed by the console of a website with an element with id = 'main'
 
 // append() adds a child as the last child, prepend() adds a child as the first child
+```
 
+-
 
+###.toUpperCase() & .toLowerCase():
 
-toUpperCase() & toLowerCase():
-
+```javascript
 var str = "hElLo";
 str = str.toUpperCase();
 console.log(str);
@@ -23,12 +27,13 @@ console.log(str);
 str = str.toLowerCase();
 console.log(str);
 // This will print "hello"
+```
 
+-
 
+###.split():
 
-.split():
-
-
+```javascript
 var str = "Some String";
 var strs = str.split(" ");
 console.log(strs);
@@ -38,12 +43,13 @@ console.log(strs);
 var strsSplitByO = str.split("o");
 console.log(strsSplitByO);
 // This will print: ["S", "me String"] since it will split at the "o" and delete the "o"
+```
 
+-
 
+###.slice():
 
-slice():
-
-
+```javascript
 var str = "abcdefgh";
 console.log(str.slice(0,1));
 // "a"
@@ -62,12 +68,13 @@ console.log(str.slice(1));
 
 console.log(str.slice(5));
 // "fgh"
+```
 
-
+-
 
 This function takes a two-word string and will uppercase the lowercase the first word and capitalize its first letter, and it will uppercase the second word and return the result
 
-
+```javascript
 function nameChanger(oldName) {
     var finalName = oldName;
     var names = oldName.split(" ");
@@ -76,3 +83,4 @@ function nameChanger(oldName) {
     finalName = names.join(" ");
     return finalName;
 }
+```
