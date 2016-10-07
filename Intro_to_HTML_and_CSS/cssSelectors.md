@@ -30,7 +30,7 @@ Other Pseudo Selectors: empty
 
 Other useful ways of selecting elements:
 
-
+```
 .classNameOne.classNameTwo
 // This will only select elements that have both of these classes
 
@@ -48,3 +48,4 @@ h2 + p
 
 li ~ li
 // Selects li elements that are siblings and following another li element
+```
