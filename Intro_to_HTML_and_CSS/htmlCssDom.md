@@ -29,7 +29,9 @@ Content can be empty, text, or another element
 
 Each tag has a name/type: img, p, div, etc.
 
+```HTML
 Each tag can have attributes with values like this div tag has a class attribute with the value "main": <div class="main">...</div>
+```
 
 HTML tags and attributes define the structure and content of the page
 
@@ -53,20 +55,21 @@ In CSS, when you want to refer to a class, say a class called "main" you write:
 
 If "main" was an Id then you would write:
 
+```
 #main
 {
     cssAttribute: newValue;
 }
+```
 
 Including a CSS file in your html document:
 
+```HTML
 In your <head> tag put:
 
 <link rel="stylesheet" text="text/css" href="nameOfCssFile.css">
-
-
+```
 
 For orgnizations sake, every web element is box shaped on a web page
-
 
 Start every html file with: <!DOCTYPE html>, and put all the code for that page between an <html> tag
