@@ -1,5 +1,4 @@
-Bootstrap Basics:
-
+#Bootstrap Workflow Basics
 
 Make sure you have bootstrap.css and bootstap.min.js in the head of your project
 
@@ -9,6 +8,7 @@ An item in a row should be of class "col-md-X" where X is an integer 1-12 that w
 
 For images, use the "img-responsive" class to give all your images responsive attributes defined in the bootstrap.css file
 
+-
 
 Typography in bootstrap:
 
@@ -16,9 +16,8 @@ You can use many different premade classes that come with bootstrap to change th
 
 .text-right, .text-left, .text-center, .font-weight-bold, .font-italic, .text-uppercase, .text-lowercase
 
-
+-
 
 Choosing features in Bootstrap:
-
 
 Go to the getbootstrap.com/customize website to customize bootstap to include whatever features your features your project will need
