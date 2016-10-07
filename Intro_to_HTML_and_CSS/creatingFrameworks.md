@@ -1,8 +1,10 @@
+#Creating Frameworks
+
 There are collections of CSS classes that make a page layout easy to implement
 
 One such collection, bootstrp, divides the webpage into 12 columns to display data on a webpage by using classes
 
-For example:
+For Example:
 
 ```HTML
 <div class="container">
@@ -14,9 +16,11 @@ For example:
     </div>
 </div>
 ```
+
 The above code will use a div to occupy 1/12th of the webpage with pic1, and then another div to occupy the other 11/12ths of the webpage
 This is all possible because of the classes "col-md" classes that can divide up the webpage
 
+-
 
 Creating a framework is easy since you can divide like this
 
