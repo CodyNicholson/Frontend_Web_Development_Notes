@@ -1,5 +1,8 @@
+#True and False in JavaScript
+
 JavaScript has a very unique way of deciding between true and false
 
+-
 
 A condition evaluates to true if it is:
 
@@ -10,6 +13,7 @@ objects,
 arrays,
 functions
 
+-
 
 A condition evaluates to false if it is:
 
@@ -20,7 +24,7 @@ undefined,
 null,
 not a number
 
-
+-
 
 Example values:
 
