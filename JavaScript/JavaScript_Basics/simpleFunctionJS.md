@@ -1,3 +1,6 @@
+#A Simple JS Function
+
+```javascript
 var s = "audacity";
 
 var udacityizer = function(s) {
@@ -6,5 +9,6 @@ var udacityizer = function(s) {
 };
 
 console.log(udacityizer(s));
+```
 
-// This will print "Udacity"
+This will print "Udacity"
