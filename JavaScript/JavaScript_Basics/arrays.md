@@ -1,12 +1,14 @@
+#Arrays
+
 These are the same as lists in python
 
 Arrays in JS start at index '0'
 
-
+-
 
 Array manipulation example code:
 
-
+```JavaScript
 var sampleArray = [0,0,7];
 
 var incrementLastArrayElement = function(_array) {
@@ -20,3 +22,4 @@ var incrementLastArrayElement = function(_array) {
 };
 
 console.log(incrementLastArrayElement(sampleArray));
+```
