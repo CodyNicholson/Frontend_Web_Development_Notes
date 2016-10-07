@@ -1,15 +1,14 @@
-CSS Selectors:
-
-
+#CSS Selectors
 
 Id selector: #idName
 
-
 Class selector: .className
 
-// Classes are more useful than id's because they are supported in every browser
-// You can add multiple classes to the same web element as long as you separate them by a space, example: class="classOne classTwo"
+Classes are more useful than id's because they are supported in every browser
 
+You can add multiple classes to the same web element as long as you separate them by a space, example: class="classOne classTwo"
+
+-
 
 Tag selector: img, p, div, body, html, a, span, h1, h2
 // This is best for changing properties unique to every element of a certain tag
