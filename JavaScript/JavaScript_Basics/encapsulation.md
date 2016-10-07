@@ -1,11 +1,12 @@
+#Encapsulation
+
 Encapsulation in js is the technique of putting a function inside of an object
 
 In js, almost everything is an object
 
 In the below json, you will see that I have included some data, and beneath that I added a function to the projects json object that I can call using "projects.someName();"
 
-
-
+```JavaScript
 var projects =
 {
     "projs" :
@@ -23,3 +24,4 @@ projects.someName = function()
 }
 
 projects.someName();
+```
