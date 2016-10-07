@@ -29,8 +29,13 @@ JavaScript has a very unique way of deciding between true and false
 Example values:
 
 1 = true                  since it's a non-zero number
+
 "Awesome" = true          since it's a string
+
 undefined = false         since it's undefined
+
 -42 = true                since it's a non-zero number
+
 {"state":false} = true    since it's an object
+
 [false] = true            since it's an array
