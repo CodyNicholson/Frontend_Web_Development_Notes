@@ -1,5 +1,4 @@
-Image types:
-
+#Image types
 
 Raster:
 From a camera, a grid of colored dots, blurs easily, use JPEG or WebP file format
