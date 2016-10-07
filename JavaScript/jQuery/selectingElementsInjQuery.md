@@ -1,3 +1,6 @@
+#Selecting Elements in jQuery
+
+```javascript
 $
 // Makes a jQuery object
 
@@ -12,16 +15,15 @@ $('.container')
 
 $('#main')
 // This will select all the elements on a webpage with the id 'main' using jQuery
+```
 
-
+-
 
 ANY vaild CSS selector is also a jQuery selector!
 
-
-
 In a js file:
 
-
+```javascript
 var listElements;
 // creates a variable
 
@@ -30,3 +32,4 @@ listElements = $('li');
 
 console.log(listElements);
 // Prints the elements in listElements
+```
