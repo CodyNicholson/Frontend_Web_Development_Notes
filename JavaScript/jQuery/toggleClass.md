@@ -1,11 +1,12 @@
+#Toggle Class
+
 .toggleClass():
 
-
+```javascript
 var featuredArticle;
 
 featuredArticle = $('.featured').toggleClass();
 // The toggleClass() method will remove the class from the webpage temporarily so you can see what effects that class has on your webpage
-
 
 
 .next():
@@ -23,3 +24,4 @@ article2.toggleClass('featured');
 article3.toggleClass('featured');
 // If article3 does not have the featured class, it will temporarily have the class
 // If article3 does have the class it will temporarily not have that class
+```
