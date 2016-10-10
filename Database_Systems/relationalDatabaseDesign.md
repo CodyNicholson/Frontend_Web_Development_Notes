@@ -127,7 +127,7 @@ For F and a set of attributes X, the closure of X with respect to F (written X+)
 
 To find the closure of X with respect to F:
 
-```sql
+```
 set X+ = X
 repeat
     set oldX+ = X+
@@ -148,7 +148,7 @@ for each X -> Y in E
 
     check if Y is a subset of X+
 
-if X+ includes Y for every XY in E,
+if X+ includes Y for every X -> Y in E,
 
     then E follows from F; if not, then E doesn’t follow from F
 
