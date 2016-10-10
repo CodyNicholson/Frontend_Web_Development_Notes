@@ -8,7 +8,7 @@ The Transaction manager in the DBMS must handle
 
     - Concurrency: Concurrency control, Lock tables
 
-![alt tag](pics/componentsOfDBMS)
+![alt tag](https://github.com/Cody-Nicholson96/Web_Development/blob/master/Database_Systems/pics/componentsOfDBMS.jpg)
 
 ***
 
