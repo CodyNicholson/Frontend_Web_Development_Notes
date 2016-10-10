@@ -105,7 +105,7 @@ Stricter “Repeatable Read” level allows phantoms, but not other non-repeatab
 
 ***
 
-###Dirty Reads
+###Read Uncommitted Isolation
 -
 
 What about uncommitted changes?
