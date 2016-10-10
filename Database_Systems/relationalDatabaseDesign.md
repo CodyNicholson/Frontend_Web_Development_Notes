@@ -42,7 +42,7 @@ Remove redundancy by identifying (and perhaps removing) functional dependencies 
 
 A set of attributes Y = {Y1, Y2, …, Yn} is functionally dependent on a set of attributes X = {X1, X2, …, Xm} if and only if every pair of tuples that have the same values for X must also have the same values for Y
 
-- Also “X functionally determines Y” or “X  Y”
+- Also “X functionally determines Y” or “X -> Y”
 
 - X is called the determinant
 
@@ -109,7 +109,7 @@ E follows from F if every functional dependency in the set E can be derived from
 
 If F follows from E and E follows from F, then E and F are equivalent
 
-But how can you tell if XY in the set E can be derived from the set F?
+But how can you tell if X -> Y in the set E can be derived from the set F?
 
 ***
 
@@ -130,10 +130,10 @@ To find the closure of X with respect to F:
 ```
 set X+ = X
 repeat
-    set oldX+ = X+
+    set old X+ = X+
     for each W -> Z in F do
         if X+ includes W, then set X+ = X+ U  Z
-until oldX+ = X+
+until old X+ = X+
 ```
 
 -
