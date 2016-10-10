@@ -117,7 +117,7 @@ But how can you tell if XY in the set E can be derived from the set F?
 
 How to tell if X -> Y in set E can be derived from the functional dependencies in set F?
 
-    Start with X … see what attributes you can determine from X using F …  then see what other attributes you can determine from those … and so on … and so on … can you determine all of Y?
+   Start with X … see what attributes you can determine from X using F …  then see what other attributes you can determine from those … and so on … and so on … can you determine all of Y?
 
 For F and a set of attributes X, the closure of X with respect to F (written X+) is the set of all attributes that can be determined from X
 
@@ -131,7 +131,7 @@ To find the closure of X with respect to F:
 set X+ = X
 repeat
     set oldX+ = X+
-    for each W  Z in F do
+    for each W -> Z in F do
         if X+ includes W, then set X+ = X+ U  Z
 until oldX+ = X+
 ```
