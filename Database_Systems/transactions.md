@@ -4,9 +4,9 @@ A transaction is a collection of SQL statements that must be executed as a unit
 
 The Transaction manager in the DBMS must handle
 
-    - Interruptions: Logging and recovery, log pages
+- Interruptions: Logging and recovery, log pages
 
-    - Concurrency: Concurrency control, Lock tables
+- Concurrency: Concurrency control, Lock tables
 
 ![alt tag](https://github.com/Cody-Nicholson96/Web_Development/blob/master/Database_Systems/pics/componentsOfDBMS.jpg)
 
@@ -79,9 +79,9 @@ Transactions must behave as though they were run serially (first one, then the o
 
 DBMS can “lock” all tables used by a transaction
 
-    - Transactions using the same tables would have to wait until they were released
+- Transactions using the same tables would have to wait until they were released
 
-    - Transactions using other tables could run at the same time
+- Transactions using other tables could run at the same time
 
 -
 
