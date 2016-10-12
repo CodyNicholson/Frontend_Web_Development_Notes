@@ -28,6 +28,7 @@ MAX(…): Largest of the values
 Example:
 
 SELECT SUM(Hours) FROM TABLENAME WHERE Project = 2;
+
 // This will get the sum of the Hours for Project 2
 
 SELECT Project, COUNT(*), SUM(Hours) FROM TABLENAME GROUP BY Project ORDER BY COUNT(*);
@@ -35,4 +36,5 @@ SELECT Project, COUNT(*), SUM(Hours) FROM TABLENAME GROUP BY Project ORDER BY CO
 SELECT Dept, MAX(Salary) FROM WORKERS GROUP BY Dept HAVING MAX(Salary) >= 75000 ORDER BY Dept;
 
 SELECT Dept, round(AVG(Salary),2) FROM WORKERS GROUP BY Dept ORDER BY AVG(Salary) DESC;
+
 // Compute Average salary of each Dept
