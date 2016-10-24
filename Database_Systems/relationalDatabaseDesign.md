@@ -171,3 +171,17 @@ Redundancy comes from functional dependencies whose determinants are not superke
 We construct decompositions by eliminating these functional dependencies
 
 How do we measure the quality of the resulting decompositions?
+
+***
+
+#Relational Database Design
+
+Given R = {A1, A2, …, An}, find a decomposition D = {R1, R2, …, Rm} that satisfies the following conditions:
+
+1. The union of the Ri’s is R
+
+2. Each of the Ri’s is in BCNF
+
+3. D has the dependency preservation property
+
+4. D has the lossless join property
