@@ -54,9 +54,9 @@ A minimal basis of F is a set G that is equivalent to F and is “as small as po
 
     1. The right side of every dependency is a single attribute
 
-    2. No XA can be replaced with YA, where Y is a proper subset of X, and still be equivalent to F
+    2. No X -> A can be replaced with Y -> A, where Y is a proper subset of X, and still be equivalent to F
 
-    3. No XA can be removed and still be equivalent to F
+    3. No X -> A can be removed and still be equivalent to F
 
 -
 
