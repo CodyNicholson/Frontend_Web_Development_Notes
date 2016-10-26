@@ -85,3 +85,107 @@ Start with a set of functional dependencies…
 3. If none of the relations in D contains a candidate key of R, find a candidate key K of R and create a relation in D whose attributes are the attributes of K.
 
 4. Remove any redundant relations. (A relation Q1 in D is redundant if all of its attributes are included in another relation Q2 in D.)
+
+***
+
+##Comparison of Algorithms
+
+####BCNF decomposition algorithm:
+
+- No redundancy in relations
+
+- Dependency preservation not guaranteed
+
+- Lossless join guaranteed
+
+####3NF decomposition algorithm:
+
+- Some redundancy may  remain in relations that have multiple candidate keys
+
+- Dependency preservation guaranteed
+
+- Lossless join guaranteed
+
+***
+
+##Summarizing Example
+
+INVOICE ( OrderID, OrderDate, CustomerID, Name, Address, ProductID, Description, Finish, Price, Quantity )
+
+- Review functional dependencies, candidate keys
+
+- Is INVOICE in BCNF? Is it in 3NF?
+
+- Find decompositions into BCNF and 3NF
+
+- Verify dependency preservation and lossless join?
+
+-
+
+OrderId -> OrderDate, CustomerID, Name, Address
+
+CustomerID -> Name, Address
+
+ProductID -> Description, Finish, Price
+
+OrderID, ProductID -> Quantity
+
+Candidate Key: {OrderID, ProductID}
+
+Prime Attributes: OrderID, ProductID
+
+BCNF? No
+
+3NF? No
+
+-
+
+####BCNF Decomposition:
+
+#####R1(OrderID, ProductID, Quantity)
+
+OrderID, ProductID - > Quantity
+
+#####R2(CustomerID, Name, Address)
+
+CustomerID -> Name, Address
+
+#####R3(OrderID, OrderDate, CustomerID)
+
+OrderID -> OrderDate, CustomerID
+
+#####R$(ProductID, Description, Finish, Price)
+
+ProductID -> Description, Finish, Price
+
+-
+
+####3NF Decomposition
+
+OrderID -> OrderDate
+
+OrderID -> CustomerID
+
+OrderID -> Name (DELETE)
+
+OrderID -> Address (DELETE)
+
+CustomerID -> Name
+
+CustomerID -> Address
+
+ProductID -> Description
+
+ProductID -> Finish
+
+ProductID -> Price
+
+OrderID, ProductID -> Quantity
+
+#####R1(OrderID, OrderDate, CustomerID)
+
+#####R2(CustomerID, Name, Address)
+
+#####R3(ProductID, Description, Finish, Price)
+
+#####R4(OrderID, ProductID, Quantity)

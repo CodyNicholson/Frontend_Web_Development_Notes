@@ -6,6 +6,11 @@ For every relation state r of R, the natural join of the restrictions of r to th
 
     - This property is important, but not all decompositions satisfy it…
 
+    - To test this property, can always use the general “chase test”
+
+    - In the special case where m = 2, can use the binary lossless join test
+
+
 ***
 
 ##General Test for Lossless Join
