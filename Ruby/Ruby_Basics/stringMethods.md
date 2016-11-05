@@ -62,3 +62,29 @@ CODY
 ```
 
 Notice that the "name.downcase" returned the string with quotations wrapped around it. This is because we did not use print or puts to display the string, we just left it as "name.downcase"
+
+***
+
+###.capitalize
+
+The capitalize method will take the string called, no matter if it is all lower or uppercased characters or a mix of the two, and it will lowercase all of the characters in the string and then capitalize the first character
+
+Examples:
+
+```ruby
+allUp = "NAMEONE"
+allLow = "nametwo"
+mix = "NaMeThReE"
+puts allUp.capitalize
+puts allLow.capitalize
+puts mix.capitalize
+```
+
+Output:
+
+```
+Nameone
+Nametwo
+Namethree
+nil
+```
