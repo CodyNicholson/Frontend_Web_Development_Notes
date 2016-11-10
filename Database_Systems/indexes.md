@@ -75,7 +75,7 @@ CREATE INDEX INDEXNAME
      ON TABLENAME(Attribute);
 ```
 
--
+-0
 
 Can also create index-organized tables (with an index defined on the primary key), where data is actually stored within the index
 
