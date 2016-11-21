@@ -7,7 +7,7 @@ set X+ = X
 
 repeat
     set oldX+ = X+
-    for each W  Z in F do
+    for each W -> Z in F do
         if X+ includes W, then set X+ = X+ U  Z
 
 until oldX+ = X+
