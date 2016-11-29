@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<!-- By including the above 'ng-app' we have made this html file an Angular application -->
+<!-- You can add many Angular apps in a single html file by adding 'ng-app' to any tag in your html file -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Registration</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="js/lib/angular/angular.min.js"></script>
+  <script type="js/lib/angular/angular-route.min.js"></script>
+  <script type="js/lib/angular/angular-animate.min.js"></script>
+  <!-- By Including the above three scripts we have added Angular to the project -->
+
+  <script type="js/lib/angular/app.js"></script>
+  <!-- The above app.js file will display 'Welcome to my App' on the screen -->
+
+</head>
+<body>
+<header></header>
+<div class="page">
+  <main class="cf" ng-controller="appController">
+      {{ message }}
+  </main>
+  <!-- The above code will take the 'message' from the appController defined in our app.js file and put that message in the 'main' tag -->
+</div>
+</body>
+</html>

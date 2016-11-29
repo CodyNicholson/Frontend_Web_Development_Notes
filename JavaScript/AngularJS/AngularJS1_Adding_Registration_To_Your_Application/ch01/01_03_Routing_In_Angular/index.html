@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Registration</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/lib/angular/angular.min.js"></script>
+  <script src="js/lib/angular/angular-route.min.js"></script>
+  <script src="js/lib/angular/angular-animate.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <!-- Look at the above app.js file to see how routing was added to this Angular app -->
+
+</head>
+<body>
+<header></header>
+<div class="page">
+  <main class="cf" ng-view>
+      <!-- We add 'ng-view' directive to the above 'main' tag because it complements routing by including the rendered template of the current route into the main layout (index.html) file -->
+  </main>
+</div>
+</body>
+</html>
