@@ -18,3 +18,5 @@ myApp.config(['$routeProvider', function($routeProvider) {
       redirectTo: '/login'
     });
 }]);
+
+// Each template is assigned a controller and can only receive data from that controller

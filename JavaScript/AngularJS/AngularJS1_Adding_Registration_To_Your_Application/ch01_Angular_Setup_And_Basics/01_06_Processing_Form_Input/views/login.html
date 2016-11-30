@@ -1,11 +1,14 @@
 <section class="card login">
   <form name="myform"
+    ng-submit="login()"
     novalidate>
+    <!-- The ng-submit directive means: run a function when this form is submitted -->
 
     <div class="textintro">
       <h1>Hi there!</h1>
       <p>Log-in to access the awesomeness!</p>
-      <p>{{ myform.email.$valid }}</p>
+      <p class="message" ng-show="message">{{ message }}</p>
+      <!-- When the 'message' variable exists, show the message -->
     </div>
 
     <fieldset>
@@ -15,7 +18,6 @@
       ng-show="myform.email.$invalid && myform.email.$touched">
       Must be a valid email</p>
 
-
       <input type="password" name="password" placeholder="Password"
       ng-model="user.password" ng-required="true">
       <p class="error validationerror"
@@ -24,7 +26,9 @@
 
     </fieldset>
 
-    <button type="submit" class="btn">Login</button>
+    <button type="submit" class="btn"
+    ng-disabled="myform.$invalid">Login</button>
+    <!-- Button will be disabled until form is valid due to the ng-disabled directive -->
     <p>or <a href="#/register">register</a></p>
   </form>
 </section>

@@ -1,0 +1,33 @@
+<section class="card login">
+  <form name="myform" novalidate>
+  <!-- The above 'novalidate' attribute makes it so that Angular takes over our form validation from the browser -->
+
+    <div class="textintro">
+      <h1>Hi there!</h1>
+      <p>Log-in to access the awesomeness!</p>
+      <p>{{ myform.email.$valid }}</p>
+      <!-- The above p tag will display true if a valid email is entered, and false if one is not -->
+    </div>
+
+    <fieldset>
+      <input type="email" name="email" placeholder="Email"
+      ng-model="user.email" ng-required="true">
+      <!-- When a user enters an email into this input, Angular will save their email as a variable '$scope.user.email' using the ng-model directive -->
+      <!-- The 'ng-required' directive makes this a required field in our form -->
+      <p class="error validationerror"
+      ng-show="myform.email.$invalid && myform.email.$touched">Must be a valid Email</p>
+      <!-- The above p tag will display if the email provided is invalid AND that you have tried to put in an email (you 'touched' the textbox) -->
+
+      <input type="password" name="password" placeholder="Password"
+      ng-model="user.password" ng-required="true">
+      <p class="error validationerror"
+      ng-show="myform.password.$invalid && myform.password.$touched">Must enter a Password</p>
+      <!-- The above validation is the same as the email validation but for the password -->
+    </fieldset>
+
+    <button type="submit" class="btn">Login</button>
+    <p>or <a href="#/register">register</a></p>
+  </form>
+</section>
+
+<!-- AngularJS validation works by taking advantage of a feature called two-way data binding, which means that the data in Angular is connected to your controllers and your templates. -->
