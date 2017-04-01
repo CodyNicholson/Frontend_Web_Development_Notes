@@ -1,4 +1,4 @@
-#Comparisons
+# Comparisons
 
 Put numerical or string or date value on each side, comparison returns true or false
 

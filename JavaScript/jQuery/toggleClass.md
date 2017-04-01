@@ -1,4 +1,4 @@
-#Toggle Class
+# Toggle Class
 
 .toggleClass():
 

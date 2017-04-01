@@ -1,4 +1,4 @@
-#Database Programming In PL/SQL
+# Database Programming In PL/SQL
 
 PL/SQL is Oracle’s version of  the SQL/PSM (“Persistent Stored Modules”) standard
 
@@ -12,7 +12,7 @@ PL/SQL is a procedural programming language that includes SQL – it can:
 
 ***
 
-###Database Programming in PL/SQL
+### Database Programming in PL/SQL
 
 Three places PL/SQL code can go:
 
@@ -24,7 +24,7 @@ Three places PL/SQL code can go:
 
 ***
 
-###Anonymous Block
+### Anonymous Block
 
 Will be executed directly, like an SQL script:
 
@@ -41,7 +41,7 @@ Will be executed directly, like an SQL script:
 ```
 ***
 
-###PL/SQL Statements
+### PL/SQL Statements
 
 - Output (dbms_output.put_line)
 
@@ -55,7 +55,7 @@ Will be executed directly, like an SQL script:
 
 ***
 
-###PL/SQL Procedures
+### PL/SQL Procedures
 
 ```
 CREATE [OR REPLACE] PROCEDURE name
@@ -73,7 +73,7 @@ END;
 
 ***
 
-###PL/SQL Functions
+### PL/SQL Functions
 
 ```
 CREATE [OR REPLACE] FUNCTION
@@ -92,7 +92,7 @@ Specify return type and return value instead
 
 ***
 
-###Output
+### Output
 
 To display output:
 
@@ -106,7 +106,7 @@ Concatenation of strings uses ||
 
 ***
 
-###Declaring Variables
+### Declaring Variables
 
 All variables must be declared:
 
@@ -131,7 +131,7 @@ Can use substitution variables (e.g., &X) to prompt user for values
 
 ***
 
-###Branching
+### Branching
 
 if-then:
 
@@ -188,7 +188,7 @@ end case;
 
 ***
 
-###Loops
+### Loops
 
 General loop:
 
@@ -228,7 +228,7 @@ lower always appears before upper in header
 
 ***
 
-###Incorporating SQL Queries
+### Incorporating SQL Queries
 
 Result of a query can be stored in a set of variables by adding INTO clause to query
 
@@ -245,7 +245,7 @@ FROM list of tables
 
 ***
 
-##Cursors
+### Cursors
 
 A cursor represents a pointer into a set of records returned by a query
 
@@ -257,7 +257,7 @@ Cursor name can be used to iterate through the records returned by query
 
 -
 
-###Cursor Commands/Expressions
+### Cursor Commands/Expressions
 
 ```
 open name;
@@ -278,7 +278,7 @@ name%rowcount
 
 ***
 
-###Parameterized Cursors
+### Parameterized Cursors
 
 Can supply a parameter in cursor declaration and query
 
@@ -290,7 +290,7 @@ Each time cursor is opened, a value of the parameter must be specified in parent
 
 ***
 
-###Records
+### Records
 
 Can declare a record with the same structure as a table row (fields are table attributes):
 
@@ -306,7 +306,7 @@ recordName.Attribute
 
 ***
 
-###Cursor For Loop
+### Cursor For Loop
 
 To iterate through all of the rows returned by a query:
 
@@ -320,7 +320,7 @@ The needed record must be declared, but open/fetch/close can be omitted in this 
 
 ***
 
-###Procedures
+### Procedures
 
 ```
 CREATE [OR REPLACE] PROCEDURE name
@@ -338,7 +338,7 @@ END;
 
 ***
 
-###Functions
+### Functions
 
 ```
 CREATE [OR REPLACE] FUNCTION
@@ -357,7 +357,7 @@ Specify return type and return value instead
 
 ***
 
-###Review Oracle Trigger Syntax
+### Review Oracle Trigger Syntax
 
 ```
 CREATE [OR REPLACE] TRIGGER Name
@@ -376,17 +376,17 @@ END;
 
 -
 
-####BEFORE
+#### BEFORE
 
 Indicates that queries on TABLE will be done on the state of the table before the triggering operation executes
 
-####AFTER
+#### AFTER
 
 Indicates that queries on TABLE will be done on the state that the table would be in after the triggering operation executes
 
 -
 
-####INSERT OR DELETE OR UPDATE [OF Attribute] ON TABLE
+#### INSERT OR DELETE OR UPDATE [OF Attribute] ON TABLE
 
 What operation(s) will cause the trigger to fire?
 
@@ -396,7 +396,7 @@ Trigger may be set to fire in response to any UPDATE, or only an UPDATE of a par
 
 -
 
-####REFERENCING OLD AS OldName, NEW AS NewName
+#### REFERENCING OLD AS OldName, NEW AS NewName
 
 The original and modified states of the row being operated upon are called “old” and “new” unless you change them (for row-level triggers only!)
 
@@ -408,7 +408,7 @@ The original and modified states of the row being operated upon are called “ol
 
 -
 
-####FOR EACH ROW
+#### FOR EACH ROW
 
 If not included, indicates a statement-level trigger that will fire just once for the entire operation
 
@@ -418,7 +418,7 @@ If included, indicates a row-level trigger that will fire once for each row that
 
 -
 
-####WHEN (condition)
+#### WHEN (condition)
 
 Condition tested to see whether or not the trigger action will actually execute
 
@@ -428,7 +428,7 @@ Condition tested to see whether or not the trigger action will actually execute
 
 -
 
-####PL/SQL statements
+#### PL/SQL statements
 
 This block of code is executed when the trigger fires and the WHEN condition is satisfied
 
@@ -442,7 +442,7 @@ It may include:
 
 ***
 
-###Oracle Trigger Restrictions
+### Oracle Trigger Restrictions
 
 new and old can only refer to row states, so they can only be used for row-level triggers
 
@@ -453,16 +453,16 @@ PL/SQL statements in a row-level trigger cannot query or modify the table that t
 
 ***
 
-###Trigger Examples
+### Trigger Examples
 
-####Salary Cap:
+#### Salary Cap:
 
 Cancel any operation that will cause the sum of the salaries to exceed $1,000,000 (review Salary Cap example…)
 
-####Logging:
+#### Logging:
 
 Keep a record of all operations performed on a table (add to Department Budgets example…)
 
-####Insuring Referential Integrity:
+#### Insuring Referential Integrity:
 
 If a record is being added that would violate referential integrity, add a row with the needed primary key to the other table first! (add to Department Budgets example…)

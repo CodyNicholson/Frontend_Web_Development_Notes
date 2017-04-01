@@ -1,4 +1,4 @@
-#Using The '!' To Change Variables
+# Using The '!' To Change Variables
 
 When you call a string method on a string it will update the string but it will not change the variable
 
@@ -22,9 +22,9 @@ Notice that the .upcase method clearly worked on the string "name", but after wh
 
 -
 
-###Using The !
+### Using The !
 
-By using an exclaimation point we can make string methods change the variables as seen below:
+By using an exclamation point we can make string methods change the variables as seen below:
 
 ```ruby
 name = "Cody"

@@ -1,4 +1,4 @@
-#Text and Images
+# Text and Images
 
 If you ever need to add text to a webpage, it is better to overlay text on an image than to include the text in the image
 
@@ -16,6 +16,6 @@ border-radius: 100px;
 animation: spin 2s;
 ```
 
-CSS effects do cost aditional runtime, but still save you runtime compared to pictures
+CSS effects do cost additional runtime, but still save you runtime compared to pictures
 
 For more details: https://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/

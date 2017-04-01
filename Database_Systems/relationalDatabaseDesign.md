@@ -1,4 +1,4 @@
-#Relational Database Design
+#  Relational Database Design
 
 Start with a set of attributes
     R = {A1, A2, …, An}
@@ -26,7 +26,7 @@ Conditions 2.-4. have to be formalized…
 
 ***
 
-###Redundancy
+### Redundancy
 
 Redundancy occurs when more than one record in a table stores the same information
 
@@ -38,7 +38,7 @@ Remove redundancy by identifying (and perhaps removing) functional dependencies 
 
 ***
 
-###Functional Dependencies
+### Functional Dependencies
 
 A set of attributes Y = {Y1, Y2, …, Yn} is functionally dependent on a set of attributes X = {X1, X2, …, Xm} if and only if every pair of tuples that have the same values for X must also have the same values for Y
 
@@ -58,7 +58,7 @@ A set of attributes Y = {Y1, Y2, …, Yn} is functionally dependent on a set of 
 
 ***
 
-###Finding Functional Dependencies
+### Finding Functional Dependencies
 -
 
 DVD ( DVDID , MovieID , Title , Genre ,     Length , Rating )
@@ -69,7 +69,7 @@ INVOICE ( OrderID , OrderDate ,     CustomerID , Name , Address , ProductID , De
 
 ***
 
-###Inference Rules
+### Inference Rules
 
 Let us derive other functional dependencies from known ones
 
@@ -103,7 +103,7 @@ Or, “If X -> Y and Y -> Z , then X -> Z”
 
 ***
 
-###Equivalence
+### Equivalence
 
 E follows from F if every functional dependency in the set E can be derived from those in the set F
 
@@ -113,7 +113,7 @@ But how can you tell if X -> Y in the set E can be derived from the set F?
 
 ***
 
-###Closures
+### Closures
 
 How to tell if X -> Y in set E can be derived from the functional dependencies in set F?
 
@@ -123,7 +123,7 @@ For F and a set of attributes X, the closure of X with respect to F (written X+)
 
 -
 
-###Finding a Closure
+### Finding a Closure
 
 To find the closure of X with respect to F:
 
@@ -138,7 +138,7 @@ until old X+ = X+
 
 -
 
-###Determining if E Follows from F
+### Determining if E Follows from F
 
 To determine if E follows from F:
 
@@ -154,7 +154,7 @@ if X+ includes Y for every X -> Y in E,
 
 ***
 
-###Definitions of Keys
+### Definitions of Keys
 
 A set of attributes X is a *superkey* of R if X determines all attributes of R
 
@@ -164,7 +164,7 @@ An attribute is *prime* if it is contained in some candidate key (and is *non-pr
 
 ***
 
-###Notes for future
+### Notes for future
 
 Redundancy comes from functional dependencies whose determinants are not superkeys
 
@@ -174,7 +174,7 @@ How do we measure the quality of the resulting decompositions?
 
 ***
 
-#Relational Database Design
+### Relational Database Design
 
 Given R = {A1, A2, …, An}, find a decomposition D = {R1, R2, …, Rm} that satisfies the following conditions:
 
@@ -185,3 +185,4 @@ Given R = {A1, A2, …, An}, find a decomposition D = {R1, R2, …, Rm} that sat
 3. D has the dependency preservation property
 
 4. D has the lossless join property
+

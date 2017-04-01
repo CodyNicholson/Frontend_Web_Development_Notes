@@ -1,4 +1,4 @@
-#Set Operations
+# Set Operations
 
 Given two sets A and B:
 
@@ -13,7 +13,7 @@ The set of all elements that are in A but not in B
 
 ***
 
-###Set Operations in SQL
+### Set Operations in SQL
 
 Combine the results of two queries, as long as the results contain compatible tuples:
 

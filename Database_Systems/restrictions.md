@@ -1,4 +1,4 @@
-#Restrictions
+# Restrictions
 
 The restriction of a relation state r to a set S is the set of distinct tuples obtained from r by including only the attributes in S in each tuple
 

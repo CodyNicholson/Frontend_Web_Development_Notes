@@ -1,4 +1,4 @@
-#What is a database?
+# What is a database?
 
 
 Data is info that can be recorded and has known meaning
@@ -11,7 +11,7 @@ A database is an organized collection of logically related data that are typical
 
 ***
 
-###Why use a database system?
+### Why use a database system?
 -
 
 Early data processing systems used files of data in plain text form
@@ -20,12 +20,12 @@ Problem: program-data dependence led to limited data sharing, duplication of dat
 
 ***
 
-A database uses a single repository of data acessed by multiple users
-<br>
+A database uses a single repository of data accessed by multiple users
+
 It contains info on the structure of the data
-<br>
+
 Supports different views of and concurrent access to the data
-<br>
+
 Allows sharing of and concurrent access to data
 
 -
@@ -34,10 +34,10 @@ The costs are higher overhead for the design, implementation, and maintenance of
 
 ***
 
-###Benefits:
+### Benefits:
 -
 
-- Program-data independance
+- Program-data independence
 - Controlled data redundancy
 - Controlled access to data
 - Support for multiple users
@@ -46,11 +46,11 @@ The costs are higher overhead for the design, implementation, and maintenance of
 
 ***
 
-###Database Management Systems:
+### Database Management Systems:
 -
 
 DBMS: Oracle, IBM DB2, MS Access/SQL Server, MySQL
-<br>
+
 We can work with a DBMS directly or through an application that supplies a particular interface (e.g., SQLDeveloper)
-<br>
+
 The database and DBMS together make up a database system

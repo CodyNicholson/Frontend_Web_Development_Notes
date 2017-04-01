@@ -1,10 +1,10 @@
-#Dictionary
+# Dictionary
 
 In Python you can create a dictionary that stoes pairs of keys and values, like a real dictionary stores pairs of words and definitions
 
 ***
 
-####You can create a dictionary using the below syntax:
+#### You can create a dictionary using the below syntax:
 
 ```python
 dictionaryName = {'Key1':'Value1', 'Key2':'Value2'}
@@ -12,7 +12,7 @@ dictionaryName = {'Key1':'Value1', 'Key2':'Value2'}
 
 -
 
-####Now that we have this dictionary we can explore the dictionary API
+#### Now that we have this dictionary we can explore the dictionary API
 
 ```python
 #Running the below line of code will return all of the pairs stored in the dictonary: {'Key1': 'Value1', 'Key2': 'Value2'}

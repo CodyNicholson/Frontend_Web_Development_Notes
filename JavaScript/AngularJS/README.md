@@ -1,4 +1,4 @@
-#AngularJS
+# AngularJS
 
 I have taken a few AngularJS classes because the framework has evolved a lot since its creation, and I want to stay updated
 

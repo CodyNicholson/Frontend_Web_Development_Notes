@@ -1,4 +1,4 @@
-#Responsive Image Basics
+# Responsive Image Basics
 
 Total bits = pixels * bits per pixel
 

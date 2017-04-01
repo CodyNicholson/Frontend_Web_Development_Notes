@@ -1,4 +1,4 @@
-#Angular Basics - Built in Directives and Controllers
+# Angular Basics - Built in Directives and Controllers
 
 Angular is a JS web framework aimed to make web apps simple to build and easy to maintain
 
@@ -6,7 +6,7 @@ In a .js file you can create modules that will contain the different components 
 
 -
 
-###Intro to Directives and making apps:
+### Intro to Directives and making apps:
 
 In an .html file we can put our app inside a tag, for example: <body ng-app="myApp">
 
@@ -16,7 +16,7 @@ ng-app is a built-in directive and the body tag is the scope of the app, myApp
 
 -
 
-###Intro to controllers:
+### Intro to controllers:
 
 In a .js file you can also create a controller
 
@@ -81,11 +81,11 @@ We pipe the "name", "money", and "birthday" parameters to format how they will d
 
 -
 
-###Summary of Angular Basics
+### Summary of Angular Basics
 
 A module contains different components of an AngularJS app
 
-A controller manage's an apps data
+A controller manages an apps data
 
 An expression moves values from a controller to an html file to be displayed
 
@@ -93,13 +93,13 @@ A filter formats the values used in expressions, like how the 'currency' filter 
 
 -
 
-###The directive ng-repeat
+### The directive ng-repeat
 
 In the above controller "ControllerName" we used the people array to store different properties including 'name', 'money', and 'birthday'
 
 Using ng-repeat we can repeat the same html code as many times as we need to so we can display each element in the array like this:
 
-```javascript
+```
 <div class="main" ng-controller="ControllerName">
     <div class="container">
         <h1>{{ title }}</h1>
@@ -141,7 +141,7 @@ When the page loads, a '0' with display and when it is clicked it the function i
 
 -
 
-###Summary
+### Summary
 
 The view will present the app's data through the use of expressions, filters, and directives
 

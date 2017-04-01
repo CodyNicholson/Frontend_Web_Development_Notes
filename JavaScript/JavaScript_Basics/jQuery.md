@@ -1,4 +1,4 @@
-#jQuery
+# jQuery
 
 Anything that uses this syntax '$(".className")' is jQuery, this grabs any element on the page of class 'className'
 

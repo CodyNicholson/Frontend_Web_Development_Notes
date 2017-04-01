@@ -1,4 +1,4 @@
-#Constraint
+# Constraint
 
 A constraint is usually associated with a table and is created with a CREATE CONSTRAINT or CREATE ASSERTION SQL statement
 

@@ -1,4 +1,4 @@
-#Indexes
+# Indexes
 
 An index is an auxiliary data structure constructed to speed up accesses to a data file
 
@@ -10,7 +10,7 @@ An index is stored in a separate index file
 
 ***
 
-###Benefits of Indexes
+### Benefits of Indexes
 
 Indexes can speed up various file operations
 
@@ -24,7 +24,7 @@ Indexes can speed up various file operations
 
 ***
 
-###Drawbacks of Indexes
+### Drawbacks of Indexes
 
 Space to store the index file
 
@@ -36,7 +36,7 @@ Time to maintain the index file
 
 ***
 
-###B-Tree
+### B-Tree
 
 Frequently used to implement indexes
 
@@ -50,7 +50,7 @@ Frequently used to implement indexes
 
 ***
 
-###Performance Comparison
+### Performance Comparison
 
 |               |   Unordered   | Ordered |Unordered w/ Index|
 | ------------- |:-------------:|:-------:|:----------------:|
@@ -58,11 +58,11 @@ Frequently used to implement indexes
 | DELETE        | O(1)          |  O(n)   | O(log n)         |
 | UPDATE        | O(1)          |  O(n)   | O(log n)         |
 | Search        | O(n)          | O(log n)| O(log n)         |
-| Extra Space   | nonw          | none    | O(n)             |
+| Extra Space   | none          | none    | O(n)             |
 
 ***
 
-###Files and Indexes in Oracle SQL
+### Files and Indexes in Oracle SQL
 
 Tables are by default unordered files
 

@@ -1,4 +1,4 @@
-#Joins
+# Joins
 
 Data that is distributed among multiple tables can be combined into a single set of tuples for use in a query using different types of joins:
 
@@ -8,7 +8,7 @@ Data that is distributed among multiple tables can be combined into a single set
 
 ***
 
-###Cartesian Product
+### Cartesian Product
 -
 
 What if we list two tables in the FROM?
@@ -20,7 +20,7 @@ This is almost certainly more tuples than we want – most combinations are mean
 
 ***
 
-###Equi-Joins
+### Equi-Joins
 -
 
 An equi-join keeps only those tuples where the two combined tuples agree on the shared attribute(s):
@@ -31,7 +31,7 @@ TABLE1.Attribute = TABLE2.Attribute;
 
 ***
 
-###Natural Joins
+### Natural Joins
 -
 
 Like an equi-join, but one of the duplicated columns is removed (the most common join):
@@ -43,7 +43,7 @@ TABLE1.Attribute = TABLE2.Attribute;
 
 ***
 
-###Inner Joins
+### Inner Joins
 -
 
 These are both examples of inner joins
@@ -65,7 +65,7 @@ FROM TABLE1 NATURAL JOIN TABLE 2
 
 ***
 
-###Join Example
+### Join Example
 -
 
 COURSE (CourseNumber, CourseName)
@@ -75,7 +75,7 @@ STUDENT(StudentID, FirstName, LastName)
 
 ***
 
-###Table Aliases
+### Table Aliases
 -
 
 Can give alternate names to tables in FROM
@@ -86,7 +86,7 @@ Useful in joins if table names are long…
 
 ***
 
-###Inner Joins vs. Outer Joins
+### Inner Joins vs. Outer Joins
 -
 
 An inner join requires that tuples in the tables satisfy some condition to create a tuple in the result.
@@ -99,7 +99,7 @@ A tuple that does not match anything, combined with an all-NULL tuple (non-match
 
 ***
 
-###Left Outer
+### Left Outer
 -
 
 Includes all matching tuples, plus a tuple for each tuple in the first table that has no match
@@ -108,7 +108,7 @@ Includes all matching tuples, plus a tuple for each tuple in the first table tha
 
 -
 
-###Right Outer Join
+### Right Outer Join
 -
 
 Includes all matching tuples, plus a tuple for each tuple in the second table that has no match
@@ -117,7 +117,7 @@ Includes all matching tuples, plus a tuple for each tuple in the second table th
 
 -
 
-###Full Outer Join
+### Full Outer Join
 
 Includes all matching tuples, plus a tuple for each tuple in either table that has no match
 
@@ -125,7 +125,7 @@ Includes all matching tuples, plus a tuple for each tuple in either table that h
 
 ***
 
-###Join Query Examples
+### Join Query Examples
 -
 
 Give the names of all students that have enrolled in any CSC course
@@ -158,4 +158,3 @@ Give the names of all members of HerCTI
 -
 
 Give the names of all courses that Angelo Krol has enrolled in
-

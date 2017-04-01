@@ -1,4 +1,4 @@
-#Commit
+# Commit
 
 Committing a transaction means making permanent the changes performed by the SQL statements within the transaction
 

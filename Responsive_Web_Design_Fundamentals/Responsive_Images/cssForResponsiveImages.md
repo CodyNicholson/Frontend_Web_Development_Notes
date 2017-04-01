@@ -1,4 +1,4 @@
-#CSS For Responsive Images
+# CSS For Responsive Images
 
 >max-width: 100%;
 

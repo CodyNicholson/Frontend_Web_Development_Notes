@@ -1,4 +1,4 @@
-#Database Models:
+# Database Models:
 
 
 Older Models:
@@ -9,7 +9,7 @@ Older Models:
 
 ***
 
-###The Relational Model
+### The Relational Model
 -
 
 Newer Models:
@@ -20,7 +20,7 @@ Newer Models:
 
 ***
 
-###File Systems:
+### File Systems:
 -
 
 Data stored in simple text files, each one possibly having a different fixed organization of its data
@@ -33,7 +33,7 @@ Not practical to optimize queries
 
 ***
 
-###Hierarchical/Network Models:
+### Hierarchical/Network Models:
 -
 
 Hierarchical Model - Data arranged in "parent-child" relationships
@@ -44,7 +44,7 @@ Both of these models have similar weaknesses, applications must navigate relatio
 
 ***
 
-###Relational Model:
+### Relational Model:
 -
 
 First model to separate the logical structure of the database from its physical structure
@@ -59,38 +59,38 @@ A standardized query language (SQL) exists
 
 ***
 
-###Newer Models:
+### Newer Models:
 -
 
 Semi-Structured Databases - XML-based collections of data
 <br>
 Object-relational databases - Add support for structured data types to relational databases
 <br>
-Document Databases - Less restrictive structure, typically no fixed schemas
+Document Databases - Less restrictive structure, typically no fixed schemes
 <br>
 Data warehouses - Integration of multiple sources of data from different models
 
 ***
 
-###Components of a DBMS:
+### Components of a DBMS:
 -
 
 > Include picture from book
 
 ***
 
-###User Interactions with DBMS:
+### User Interactions with DBMS:
 -
 
 Database - Create database schema, links between tables, constraints
 <br>
-Query Processing - Request retrival of modification of data ("queries"/"actions")
+Query Processing - Request retrieval of modification of data ("queries"/"actions")
 <br>
 Transaction Processing - Execute sets of operations that must each be executed as a unit ("Transactions")
 
 ***
 
-###Important DBMS Components
+### Important DBMS Components
 -
 
 Query Processor - Translates user queries into efficient execution plans
@@ -101,7 +101,7 @@ File/buffer/storage managers - Control internal storage of the database, schema,
 
 ***
 
-###Our Plan:
+### Our Plan:
 -
 
 Relational Database Modeling:
@@ -118,3 +118,4 @@ Relational Database Implementation:
 - SQL Queries and Transactions
 - Constraints, Triggers, Views, Indexes
 - PL/SQL Programming
+

@@ -1,6 +1,6 @@
-#BCNF Vs 3NF
+# BCNF Vs 3NF
 
-##BCNF
+## BCNF
 
 A relation R is in Boyce-Codd Normal Form (BCNF) if for every non-trivial functional dependency X -> Y in R, X is a superkey
 
@@ -10,7 +10,7 @@ A relation in BCNF will not have any redundancy, since every functional dependen
 
 -
 
-###BCNF Decomposition Algorithm
+### BCNF Decomposition Algorithm
 
 ```
 Set D = {R}
@@ -26,7 +26,7 @@ While there is some Q in D that is not in BCNF:
 
 ***
 
-##3NF
+## 3NF
 
 A relation R is in Third Normal Form (3NF) if for every non-trivial functional dependency X -> A in R, either X is a superkey or A is a prime attribute
 
@@ -36,7 +36,7 @@ A relation R is in Third Normal Form (3NF) if for every non-trivial functional d
 
 ***
 
-##BCNF Vs 3NF
+## BCNF Vs 3NF
 
 - Every relation in BCNF is in 3NF
 
@@ -48,7 +48,7 @@ A relation R is in Third Normal Form (3NF) if for every non-trivial functional d
 
 ***
 
-##Minimal Basis
+## Minimal Basis
 
 A minimal basis of F is a set G that is equivalent to F and is “as small as possible”:
 
@@ -60,7 +60,7 @@ A minimal basis of F is a set G that is equivalent to F and is “as small as po
 
 -
 
-###Constructing a Minimal Basis
+### Constructing a Minimal Basis
 
 ```
 Start with a set of functional dependencies…
@@ -74,7 +74,7 @@ Start with a set of functional dependencies…
 
 ***
 
-##3NF Decomposition Algorithm
+## 3NF Decomposition Algorithm
 
 1. Find a minimal basis G of F
 
@@ -88,9 +88,9 @@ Start with a set of functional dependencies…
 
 ***
 
-##Comparison of Algorithms
+## Comparison of Algorithms
 
-####BCNF decomposition algorithm:
+#### BCNF decomposition algorithm:
 
 - No redundancy in relations
 
@@ -98,7 +98,7 @@ Start with a set of functional dependencies…
 
 - Lossless join guaranteed
 
-####3NF decomposition algorithm:
+#### 3NF decomposition algorithm:
 
 - Some redundancy may  remain in relations that have multiple candidate keys
 
@@ -108,7 +108,7 @@ Start with a set of functional dependencies…
 
 ***
 
-##Summarizing Example
+## Summarizing Example
 
 INVOICE ( OrderID, OrderDate, CustomerID, Name, Address, ProductID, Description, Finish, Price, Quantity )
 
@@ -140,27 +140,27 @@ BCNF? No
 
 -
 
-####BCNF Decomposition:
+#### BCNF Decomposition:
 
-#####R1(OrderID, ProductID, Quantity)
+##### R1(OrderID, ProductID, Quantity)
 
 OrderID, ProductID - > Quantity
 
-#####R2(CustomerID, Name, Address)
+##### R2(CustomerID, Name, Address)
 
 CustomerID -> Name, Address
 
-#####R3(OrderID, OrderDate, CustomerID)
+##### R3(OrderID, OrderDate, CustomerID)
 
 OrderID -> OrderDate, CustomerID
 
-#####R$(ProductID, Description, Finish, Price)
+##### R$(ProductID, Description, Finish, Price)
 
 ProductID -> Description, Finish, Price
 
 -
 
-####3NF Decomposition
+#### 3NF Decomposition
 
 OrderID -> OrderDate
 
@@ -182,10 +182,10 @@ ProductID -> Price
 
 OrderID, ProductID -> Quantity
 
-#####R1(OrderID, OrderDate, CustomerID)
+##### R1(OrderID, OrderDate, CustomerID)
 
-#####R2(CustomerID, Name, Address)
+##### R2(CustomerID, Name, Address)
 
-#####R3(ProductID, Description, Finish, Price)
+##### R3(ProductID, Description, Finish, Price)
 
-#####R4(OrderID, ProductID, Quantity)
+##### R4(OrderID, ProductID, Quantity)

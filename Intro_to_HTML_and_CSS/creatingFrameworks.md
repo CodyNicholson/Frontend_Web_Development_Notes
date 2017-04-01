@@ -1,8 +1,8 @@
-#Creating Frameworks
+# Creating Frameworks
 
 There are collections of CSS classes that make a page layout easy to implement
 
-One such collection, bootstrp, divides the webpage into 12 columns to display data on a webpage by using classes
+One such collection, bootstrap, divides the webpage into 12 columns to display data on a webpage by using classes
 
 For Example:
 
@@ -24,4 +24,4 @@ This is all possible because of the classes "col-md" classes that can divide up 
 
 Creating a framework is easy since you can divide like this
 
-If you want to display two elements and exagerate one of them, you can use "col-md-8" for the exagerated one and "col-md-4" for the other so they display side-by-side but one of them will be twice as large as the other
+If you want to display two elements and exaggerate one of them, you can use "col-md-8" for the exaggerated one and "col-md-4" for the other so they display side-by-side but one of them will be twice as large as the other

@@ -1,4 +1,4 @@
-#String Interpolation
+# String Interpolation
 
 String Interpolation is when you inject data into a predefined string by using: #{stringVar}
 

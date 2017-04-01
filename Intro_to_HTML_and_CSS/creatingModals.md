@@ -1,4 +1,4 @@
-#Creating Modals
+# Creating Models
 
 Steps to adding a modal to your webpage:
 

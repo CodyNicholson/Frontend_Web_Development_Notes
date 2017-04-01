@@ -1,4 +1,4 @@
-#Relational Model
+# Relational Model
 -
 
 First model that separated the logical organization of the data from its physical organization
@@ -17,13 +17,13 @@ Constraints on the data: Domain, key, entity integrity, referential integrity, c
 
 ***
 
-Data is stored in two-dimentional tables called relations, each one having a name
+Data is stored in two-dimensional tables called relations, each one having a name
 
 Each row is a tuple representing one instance of the entity the table represents
 
 Each column is called an attribute, representing a property for which each instance has a value
 
-Every component in a tuple must have a value taken from its attribute's associated domain
+Every component in a tuple must have a value taken from its attributes associated domain
 
 Example:
 
@@ -40,13 +40,13 @@ Note that domains can be a little complicated to describe...
 
 ***
 
-###Properties of Relations
+### Properties of Relations
 
 1. Each relation has a unique name (in database)
 
 2. Each attribute has a unique name (in relation)
 
-3. Each entry of a relation contains a single value from its attribute’s domain (or NULL)
+3. Each entry of a relation contains a single value from its attributes domain (or NULL)
 
 4. The order of the records does not matter
 
@@ -56,9 +56,9 @@ Note that domains can be a little complicated to describe...
 
 ***
 
-##Relational Model Constraints
+## Relational Model Constraints
 
-####Built-in constraints in the relational model:
+#### Built-in constraints in the relational model:
 
 - Domain constraints
 
@@ -78,7 +78,7 @@ Note that domains can be a little complicated to describe...
 
 ***
 
-###Check Constraints
+### Check Constraints
 
 User-defined, verified when a tuple is added or updated
 
@@ -97,7 +97,7 @@ Tuple-level:
 
 ***
 
-#Working with Constraints
+# Working with Constraints
 
 Give constraints names when creating them
 
@@ -115,7 +115,7 @@ Make constraint DEFERRABLE, then …
 
 ***
 
-###Referential Integrity Violations
+### Referential Integrity Violations
 
 Default is to cancel the violating operation
 
@@ -131,7 +131,7 @@ ON UPDATE …
 
 ***
 
-###Assertions
+### Assertions
 
 An assertion is a condition that cannot be false for any state of the database
 
@@ -149,7 +149,7 @@ Assertions are not supported by major DBMSs
 
 ***
 
-###Relation Schemas vs. Instances
+### Relation Schemes vs. Instances
 
 The schema of a relation consists of the name of the relation followed by a list of its attributes (domains may be included also…)
 
@@ -167,7 +167,7 @@ Instances are often presented as tables rather than as sets, but the order of th
 
 ***
 
-###Candidate Keys
+### Candidate Keys
 
 A candidate key is a set of attributes for which each tuple in the relation must have a unique set of values (“key constraints”), and for which no subset of the set has this property
 
@@ -177,7 +177,7 @@ This property must hold for all possible relation instances for it to be a candi
 
 ***
 
-###Primary Keys
+### Primary Keys
 
 One of the candidate keys can be chosen as the primary key for the relation
 
@@ -189,7 +189,7 @@ A primary key must not contain any NULL values in any tuple (“entity integrity
 
 ***
 
-###Foreign Keys
+### Foreign Keys
 
 We link a pair of relations using a shared key that is the primary key in one of the relations
 
@@ -201,7 +201,7 @@ The foreign key associates each tuple with exactly one tuple in the referenced r
 
 ***
 
-###Referential Integrity
+### Referential Integrity
 
 Every foreign key value must appear as the value of the primary key in some row of the referenced table
 
@@ -213,7 +213,7 @@ We can remove a row containing a primary key only if the value of the primary ke
 
 ***
 
-###Constraints
+### Constraints
 
 All of these will be maintained by the DBMS:
 
@@ -227,7 +227,7 @@ All of these will be maintained by the DBMS:
 
 ***
 
-###Database Schema vs. Instance
+### Database Schema vs. Instance
 
 The schema of a relational database consists of:
 

@@ -1,10 +1,10 @@
-#The Box Model
+# The Box Model
 
 To view the box model inspect an element in google chrome and look for the box diagram that will be in the menu
 
 At the center of the model you will see the dimensions of the content
 
-Going one section further out you will see the demensions of the padding that is the space between the content and the border
+Going one section further out you will see the dimensions of the padding that is the space between the content and the border
 
 Another step out will take you to the border that goes around the padding and content and is inherited from the color property of the box
 

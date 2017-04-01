@@ -1,4 +1,4 @@
-#How the Pros Make Webpages
+# How the Pros Make Webpages
 
 1.1 Start with a blank html file with these wrapped in the head tag:
 
@@ -25,6 +25,5 @@
 3.3 Center text in areas by using the class "text-centered" to parent divs
 
 4.1 Make it work on all devices and all screen sizes by using media queries to change styles based on viewport width
-
 
 Code -> Test -> Refine -> Repeat

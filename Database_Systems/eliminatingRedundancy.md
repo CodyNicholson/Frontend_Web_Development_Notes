@@ -1,4 +1,4 @@
-#Eliminating Redundancy
+# Eliminating Redundancy
 
 Redundancy comes from functional dependencies whose determinants are not superkeys
 

@@ -1,4 +1,4 @@
-#Min Max Width and Height in CSS
+# Min Max Width and Height in CSS
 
 CSS:
 
@@ -30,10 +30,10 @@ This is important because you never want buttons to be smaller than 40px x 40px
 
 It is always smart to start developing for the smallest device first
 
-DIP stands for Device Independant Pixal
+DIP stands for Device Independent Pixel
 
-The browser uses DIPs to relate pixals to a real distance
+The browser uses DIPs to relate pixels to a real distance
 
 One DIP will take up the same amount of space on any device
 
-On the other hand, Hardware Pixals are the amount of pixals wide/tall a device is, which is different across various devices
+On the other hand, Hardware Pixels are the amount of pixels wide/tall a device is, which is different across various devices

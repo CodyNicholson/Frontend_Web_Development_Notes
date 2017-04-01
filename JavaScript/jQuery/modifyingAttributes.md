@@ -1,4 +1,4 @@
-#Modifiying Attributes
+# Modifying Attributes
 
 Example Code for Changing Attribute lesson:
 

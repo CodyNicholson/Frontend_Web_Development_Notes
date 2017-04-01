@@ -1,4 +1,4 @@
-###Equivalence
+# Equivalence
 
 E and F are equivalent if every functional dependency in E can be derived from F, and vice versa
 

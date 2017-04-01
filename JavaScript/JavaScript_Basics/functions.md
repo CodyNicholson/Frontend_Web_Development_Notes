@@ -1,15 +1,15 @@
-#Functions
+# Functions
 
 There are two different syntax for functions in javascript:
 
 ```JavaScript
-var functionName = function(arguements)
+var functionName = function(arguments)
 {
     function body code;
 };
 
 
-function functionName = function(arguements)
+function functionName = function(arguments)
 {
     function body code;
 };
@@ -17,7 +17,7 @@ function functionName = function(arguements)
 
 -
 
-###Returning values
+### Returning values
 
 If you want a function to give you back something, you need to add a return statement
 

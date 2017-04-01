@@ -1,4 +1,4 @@
-#Aggregate Functions
+# Aggregate Functions
 
 Given an attribute, an aggregate function takes the values of that attribute in the set of returned tuples and computes a single value from them
 
@@ -14,7 +14,7 @@ MAX(…): Largest of the values
 
 ***
 
-###Group By
+### Group By
 -
 
 … GROUP BY grouping attributes …

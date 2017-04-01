@@ -1,4 +1,4 @@
-#Projections
+# Projections
 
 Suppose we have a set of functional dependencies F in the relation R
 

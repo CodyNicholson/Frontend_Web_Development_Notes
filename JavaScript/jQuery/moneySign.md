@@ -1,4 +1,4 @@
-#The Money Sign
+# The Money Sign
 
 Typing "jQuery" into the console and hitting enter will return: function (e,t){return new x.fn.init(e,t,r)}
 

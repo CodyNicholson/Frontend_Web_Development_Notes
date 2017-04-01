@@ -1,8 +1,8 @@
-#Background Images
+# Background Images
 
 There are many different effects you can add to a background image to make your site look great:
 
-Turn a speical text character into a background image using "http://unicode-table.com/en/":
+Turn a special text character into a background image using "http://unicode-table.com/en/":
 
 ```HTML
 <style>
@@ -21,13 +21,13 @@ Turn a speical text character into a background image using "http://unicode-tabl
 <body>★</body>
 ```
 
-Make sure you have a <meta> tag with unicode 8 on your webpage to do this^
+Make sure you have a <meta> tag with Unicode 8 on your webpage to do this^
 
 Try to always copy the character in like I did the star above, and not use the html code for it (ex: &#119070 is a treble cleft, but its better to just copy and paste the char in instead of its code)
 
 -
 
-###CSS Cover vs Contain:
+### CSS Cover vs Contain:
 
 Cover - Will keep the entire image inside the container for one of its dimensions, and will overflow the other if needed
 
@@ -35,7 +35,7 @@ Contain - Will keep the entire image inside the container even if it means makin
 
 -
 
-###Background Gradient:
+### Background Gradient:
 
 ```CSS
 background: linear-gradient(#000, white) no-repeat;
@@ -43,7 +43,7 @@ background: linear-gradient(#000, white) no-repeat;
 
 -
 
-###Background checkered gradient:
+### Background checkered gradient:
 
 ```CSS
     body {

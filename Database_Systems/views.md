@@ -1,4 +1,4 @@
-#Views
+# Views
 
 Result of a query can be stored in a view
 
@@ -12,11 +12,11 @@ Result of a query can be stored in a view
 
 ***
 
-###Updating Views Directly
+### Updating Views Directly
 
 To update a dynamic view directly, every update must be traceable to a unique update operation in the base table
 
-An updatable view must:
+An update-able view must:
 
 - be defined from just one base table
 
@@ -26,17 +26,17 @@ An updatable view must:
 
 -
 
-If a view is updatable, all updates are allowed by default
+If a view is update-able, all updates are allowed by default
 
 - WITH READ ONLY forbids all updates
 
 - WITH CHECK OPTION forbids all updates that would cause a row to be removed from the view
 
-Even if a view is directly updatable, we may not be able to insert new rows to it directly, unless it includes all attributes of the primary key…
+Even if a view is directly update-able, we may not be able to insert new rows to it directly, unless it includes all attributes of the primary key…
 
 ***
 
-###Triggers for Modifying Views
+### Triggers for Modifying Views
 
 If a view cannot be updated or inserted to directly, we can define a trigger to do it
 
@@ -46,7 +46,7 @@ If a view cannot be updated or inserted to directly, we can define a trigger to 
 
 ***
 
-###Materialized Views
+### Materialized Views
 
 Materialized views are stored independently:
 

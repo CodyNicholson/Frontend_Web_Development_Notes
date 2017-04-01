@@ -1,4 +1,4 @@
-#Subqueries
+# Subqueries
 
 The result of one query may be needed by another to compute its result
 
@@ -10,7 +10,7 @@ The subquery usually appears in a WHERE or HAVING clause and  sometimes in a FRO
 
 ***
 
-###Correlated Subqueries
+### Correlated Subqueries
 -
 
 A subquery may refer to attributes of the table in the outer query

@@ -1,4 +1,4 @@
-#Lossless Join Property
+# Lossless Join Property
 
 For every relation state r of R, the natural join of the restrictions of r to the relations R1, R2, …, Rm in the decomposition is r itself
 
@@ -13,7 +13,7 @@ For every relation state r of R, the natural join of the restrictions of r to th
 
 ***
 
-##General Test for Lossless Join
+## General Test for Lossless Join
 
 1 - Create a matrix S with a row i for each Ri and a column for j for each Aj
 

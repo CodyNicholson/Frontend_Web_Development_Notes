@@ -1,4 +1,4 @@
-#Transactions
+# Transactions
 
 A transaction is a collection of SQL statements that must be executed as a unit
 
@@ -12,7 +12,7 @@ The Transaction manager in the DBMS must handle
 
 ***
 
-###ACID Properties
+### ACID Properties
 -
 
 Transactions should satisfy the following properties:
@@ -27,7 +27,7 @@ Transactions should satisfy the following properties:
 
 ***
 
-####Atomicity
+#### Atomicity
 
 Transaction operations are kept in a local store, not applied to database immediately
 
@@ -39,7 +39,7 @@ Partial results can be “rolled back” before completion (by user or by system
 
 ***
 
-####Durability
+#### Durability
 
 Committing changes also insures durability
 
@@ -61,7 +61,7 @@ As long as legal SQL is used, the DBMS will insure that database constraints are
 
 ***
 
-####Isolation
+#### Isolation
 
 Must maintain separation among transactions that access data concurrently
 
@@ -73,7 +73,7 @@ Must maintain separation among transactions that access data concurrently
 
 -
 
-####Serializable Isolation
+#### Serialize-able Isolation
 
 Transactions must behave as though they were run serially (first one, then the other)
 
@@ -85,9 +85,9 @@ DBMS can “lock” all tables used by a transaction
 
 -
 
-####Read Committed Isolation
+#### Read Committed Isolation
 
-Not as strict as serializable
+Not as strict as serialize-able
 
 If one transaction tries to read data that was written by another, it can only see changes that have been committed
 
@@ -105,7 +105,7 @@ Stricter “Repeatable Read” level allows phantoms, but not other non-repeatab
 
 ***
 
-###Read Uncommitted Isolation
+### Read Uncommitted Isolation
 -
 
 What about uncommitted changes?
@@ -120,7 +120,7 @@ Reads of uncommitted changes from another transaction are called dirty reads
 
 ***
 
-###Isolation Levels
+### Isolation Levels
 -
 
 **SERIALIZABLE:** Transactions must appear to run serially – cannot read any changes from others
@@ -133,7 +133,7 @@ Reads of uncommitted changes from another transaction are called dirty reads
 
 ***
 
-###Transactions in Oracle
+### Transactions in Oracle
 -
 
 Supports READ COMMITTED (by default) and SERIALIZABLE isolation levels only

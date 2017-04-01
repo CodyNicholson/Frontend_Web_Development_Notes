@@ -1,6 +1,6 @@
-#Return
+# Return
 
-###Returning a Single Value
+### Returning a Single Value
 -
 
 When a single value is returned, it can be used like any other value on the right-hand side of a WHERE or HAVING condition
@@ -12,7 +12,7 @@ When a single value is returned, it can be used like any other value on the righ
 
 ***
 
-###Returning a Table
+### Returning a Table
 -
 
 Can check whether the returned table is empty:

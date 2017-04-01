@@ -1,4 +1,4 @@
-#Responsive Tables and Hiding Content
+# Responsive Tables and Hiding Content
 
 Using the "display: none" statement in CSS you can hide certain elements at different viewport sizes
 

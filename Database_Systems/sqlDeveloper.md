@@ -1,4 +1,4 @@
-#SQL Developer
+# SQL Developer
 
 SQLDeveloper is an application that works as a "front-end" connection to a server running Oracle DBMS
 
@@ -10,7 +10,7 @@ It is installed in all CDM labs, or can be downloaded free from Oracle
 
 ***
 
-###Setting up a Connection at DePaul:
+### Setting up a Connection at DePaul:
 -
 
 Connection Name: Nicholson355
@@ -34,14 +34,14 @@ Disconnect and commit when you are done
 
 ***
 
-###Single SQL Command:
+### Single SQL Command:
 -
 
 Type command in center window, then execute (Ctrl+Enter)
 
 ***
 
-###Running a Script (SQL commands stored in a file):
+### Running a Script (SQL commands stored in a file):
 -
 
 Type '@' followed by a complete path to script file in center window, then Run Script (F5)
@@ -50,7 +50,7 @@ Output will appear in bottom window under Query Result of Script Output
 
 ***
 
-###Browsing Database Tables:
+### Browsing Database Tables:
 -
 
 Left window shows current Tables, click on + to expand list
@@ -65,7 +65,7 @@ DATA shows contents
 
 ***
 
-###Saving SQLDeveloper Output
+### Saving SQLDeveloper Output
 -
 
 Click on Save icon to save contents of Script Output window to a file

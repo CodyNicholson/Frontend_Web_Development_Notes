@@ -1,6 +1,6 @@
-#Bootstrap Workflow Basics
+# Bootstrap Workflow Basics
 
-Make sure you have bootstrap.css and bootstap.min.js in the head of your project
+Make sure you have bootstrap.css and bootstrap.min.js in the head of your project
 
 A row should be of class "row"
 
@@ -10,7 +10,7 @@ For images, use the "img-responsive" class to give all your images responsive at
 
 -
 
-####Typography in bootstrap
+#### Typography in bootstrap
 
 You can use many different premade classes that come with bootstrap to change the layout of text on your webpage like:
 
@@ -18,6 +18,6 @@ You can use many different premade classes that come with bootstrap to change th
 
 -
 
-####Choosing features in Bootstrap
+#### Choosing features in Bootstrap
 
-Go to the getbootstrap.com/customize website to customize bootstap to include whatever features your features your project will need
+Go to the getbootstrap.com/customize website to customize bootstrap to include whatever features your features your project will need

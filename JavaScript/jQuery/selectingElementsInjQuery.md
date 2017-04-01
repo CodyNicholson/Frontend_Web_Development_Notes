@@ -1,4 +1,4 @@
-#Selecting Elements in jQuery
+# Selecting Elements in jQuery
 
 ```javascript
 $

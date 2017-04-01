@@ -1,4 +1,4 @@
-#Modifying Element Text Values
+# Modifying Element Text Values
 
 
 html:
@@ -27,4 +27,4 @@ $('#input').on('change', function()
 });
 ```
 
-When the user inputs text into the input box, that will appear on the webpage as a result of the 'input' tag, then that input text will the value of the text of the <h1> element that is a cild of the  element with class 'articles'
+When the user inputs text into the input box, that will appear on the webpage as a result of the 'input' tag, then that input text will the value of the text of the <h1> element that is a child of the  element with class 'articles'

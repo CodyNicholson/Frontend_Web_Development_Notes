@@ -1,4 +1,4 @@
-#Triggers
+# Triggers
 
 A trigger is a procedure that is executed in response to a particular database operation
 
@@ -38,7 +38,7 @@ A trigger definition must specify:
 
 ***
 
-###Oracle Trigger Syntax
+### Oracle Trigger Syntax
 
 ```
     CREATE [OR REPLACE] TRIGGER Name
@@ -124,7 +124,7 @@ PL/SQL statements
 
 ***
 
-###Oracle Trigger Restrictions
+### Oracle Trigger Restrictions
 
 New and old can only refer to row states, so they can only be used for row-level triggers
 
@@ -135,7 +135,7 @@ PL/SQL statements in a row-level trigger cannot query or modify the table that t
 
 ***
 
-###Trigger Example
+### Trigger Example
 
 Salary Cap:
 

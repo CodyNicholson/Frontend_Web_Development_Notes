@@ -1,5 +1,4 @@
-##Relational Model:
-
+# Relational Model:
 
 Structure: Two-dimensional tables with links
 
@@ -7,10 +6,9 @@ Operations: Relational algebra / SQL
 
 Constraints: Data domains, uniqueness,…
 
+***
 
-
-##Semi-structured Model:
-
+## Semi-structured Model:
 
 Structure: Nested XML elements
 

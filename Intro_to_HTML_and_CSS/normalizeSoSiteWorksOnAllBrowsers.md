@@ -1,4 +1,4 @@
-#Normalize So Site Works On All Browsers
+# Normalize So Site Works On All Browsers
 
 By adding the normalize.css stylesheet to your website, you can rest eay knowing that your site will display well on every known browser
 

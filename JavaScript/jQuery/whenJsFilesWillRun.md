@@ -1,4 +1,4 @@
-#When JavaScript Will Run
+# When JavaScript Will Run
 
 External JavaScript files in the 'head' tag of a document are generally downloaded earlier than JavaScript files included in the 'body'
 

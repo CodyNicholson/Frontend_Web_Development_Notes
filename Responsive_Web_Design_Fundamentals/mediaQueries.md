@@ -1,4 +1,4 @@
-#Media Queries
+# Media Queries
 
 A media query is used to change the CSS if a condition is met
 
@@ -40,7 +40,7 @@ Minor Breakpoints can be used to make small changes to your webpage, like change
 
 -
 
-###NEVER USE:
+### NEVER USE:
 
 @import because of performance
 

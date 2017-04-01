@@ -1,10 +1,10 @@
-#String Methods
+# String Methods
 
 Since everything in Ruby is an object everything also has built-in methods attached to it. In this tutorial we will explore some of the most useful built-in functions for Strings in Ruby.
 
 ***
 
-###.length
+### .length
 
 The **.length** method will return the number of characters in the string that you call it on
 
@@ -23,7 +23,7 @@ Output:
 
 ***
 
-###.reverse
+### .reverse
 
 The **.reverse** method will reverse the characters of the string it is called on
 
@@ -42,7 +42,7 @@ Output:
 
 ***
 
-###.upcase & .downcase
+### .upcase & .downcase
 
 The methods **.upcase** and **.downcase** convert all the characters of a string to uppercase/lowercase
 
@@ -65,7 +65,7 @@ Notice that the "name.downcase" returned the string with quotations wrapped arou
 
 ***
 
-###.capitalize
+### .capitalize
 
 The capitalize method will take the string called, no matter if it is all lower or uppercased characters or a mix of the two, and it will lowercase all of the characters in the string and then capitalize the first character
 

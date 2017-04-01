@@ -1,4 +1,4 @@
-#How to Add jQuery to HTML File
+# How to Add jQuery to HTML File
 
 In the Head tag include either:
 

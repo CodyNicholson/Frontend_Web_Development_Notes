@@ -1,10 +1,8 @@
-#Cascading Style Sheets
-
+# Cascading Style Sheets
 
 In CSS the most specific CSS style will overwrite the others
 
 For Example:
-
 
 HTML:
 
@@ -42,6 +40,6 @@ Inline style in an element (styling in the tag of the element), this whould be a
 
 Stylesheet inside the html file using the 'style' tag (Also, not ideal, use an external stylesheet)
 
-Stylesheet in a seperate file (The most ideal solution)
+Stylesheet in a separate file (The most ideal solution)
 
 Default style of the browser (not decided by you, how the browser represents your code without css)

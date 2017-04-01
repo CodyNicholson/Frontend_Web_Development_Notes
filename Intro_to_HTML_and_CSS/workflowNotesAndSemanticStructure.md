@@ -1,4 +1,4 @@
-#Workflow Notes and Semantic Structure
+# Workflow Notes and Semantic Structure
 
 When you create your framework you should name each class after the portion of the screen it occupies
 

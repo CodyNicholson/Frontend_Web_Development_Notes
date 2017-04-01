@@ -1,4 +1,4 @@
-#Event Listener
+# Event Listener
 
 ```
 $( '.container' ).on( 'click', 'article', function() { <function details> });

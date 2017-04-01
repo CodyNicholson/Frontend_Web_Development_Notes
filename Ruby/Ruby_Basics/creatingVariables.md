@@ -1,4 +1,4 @@
-#Creating Variables
+# Creating Variables
 
 In Ruby you can create variables using the following syntax:
 

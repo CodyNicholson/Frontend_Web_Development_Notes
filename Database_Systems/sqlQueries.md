@@ -1,6 +1,6 @@
-#SQL Queries
+# SQL Queries
 
-####General form of a query:
+#### General form of a query:
 SELECT list of expressions
 FROM set of records
 [WHERE condition on tuples]
@@ -11,7 +11,7 @@ Result is an ordered set of ordered tuples
 
 ___
 
-###Select
+### Select
 -
 
 SELECT list of expressions …
@@ -24,7 +24,7 @@ SELECT list of expressions …
 
 ___
 
-###From
+### From
 -
 
 Select FROM set of records
@@ -36,7 +36,7 @@ Select FROM set of records
 
 ___
 
-###Where
+### Where
 -
 
 Select thing from list… WHERE condition on tuples …
@@ -47,3 +47,4 @@ Condition expression can contain:
 - comparisons
 - expressions with wildcards (for strings)
 - logical operators
+

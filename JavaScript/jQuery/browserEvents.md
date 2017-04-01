@@ -1,4 +1,4 @@
-#Browser Events
+# Browser Events
 
 A browser event is triggered when you do something on a webpage like hover over, click, type, or pretty much anything
 

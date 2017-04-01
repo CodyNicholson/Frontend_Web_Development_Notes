@@ -1,4 +1,4 @@
-#Dependency Preservation Property
+# Dependency Preservation Property
 
 The union over all i in {1,…,m} of the projections of F on Ri is equivalent to F
 

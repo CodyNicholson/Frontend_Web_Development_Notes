@@ -1,5 +1,4 @@
-#Steps to become a Web Developer:
-
+# Steps to become a Web Developer:
 
 1. Learn HTML and CSS, the most basic and fundamental skills a web developer needs
 

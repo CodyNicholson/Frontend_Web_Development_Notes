@@ -1,4 +1,4 @@
-##Data Models
+# Data Models
 
 > A data model describes three things about stored data:
 Structure of the data: How is the data organized?

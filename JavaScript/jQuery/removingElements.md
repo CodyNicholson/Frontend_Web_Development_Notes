@@ -1,5 +1,4 @@
-#Removing Elements Using jQuery
-
+# Removing Elements Using jQuery
 
 HTML:
 

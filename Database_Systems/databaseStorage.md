@@ -1,4 +1,4 @@
-#Database Storage
+# Database Storage
 
 Typically, each table is stored in a separate file on the disk
 
@@ -16,9 +16,9 @@ Each table is stored in a separate file, where each file is of a collection of n
 
 ***
 
-###Unordered Files
+### Unordered Files
 
-#####No particular order maintained on the records
+##### No particular order maintained on the records
 
 Insertions done at the end of the file (O(1))
 
@@ -36,7 +36,7 @@ Updating a record may be costly also (O(n))
 
 ***
 
-###Ordered Files
+### Ordered Files
 
 Records are stored in order based on the value of an ordering field
 

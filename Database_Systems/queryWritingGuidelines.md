@@ -1,4 +1,4 @@
-#Query Writing Guidelines
+# Query Writing Guidelines
 
 FROM: What table should I use?
 <br>

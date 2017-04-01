@@ -1,6 +1,6 @@
-#Loops
+# Loops
 
-###While loop syntax:
+### While loop syntax:
 
 ```javascript
 while (condition)
@@ -12,7 +12,7 @@ The loop will repeat itself until the condition is no longer true, or you get a 
 
 -
 
-###For loop syntax:
+### For loop syntax:
 
 ```javascript
 for (initialization; condition; mutator)

@@ -1,4 +1,4 @@
-#Math In Ruby
+# Math In Ruby
 
 There are six arithmetic operators we're going to focus on:
 
@@ -22,4 +22,4 @@ num = num**2  # num equals 64
 num = num%5   # num equals 4
 num = num*5   # num equals 20
 num = num/10  # num equals 2
-``` 
+```

@@ -1,10 +1,10 @@
-#Boolean Operators
+# Boolean Operators
 
 The three boolean operators we will be discussing are: And, Or, and Not
 
 ***
 
-###And (&&)
+### And (&&)
 
 Example:
 
@@ -18,7 +18,7 @@ And requires that both conditionals be true for the entire conditional to be tru
 
 ***
 
-###Or (||)
+### Or (||)
 
 Example:
 
@@ -30,7 +30,7 @@ The above code will return true because **Or only requires one of the two condit
 
 ***
 
-###Not (!)
+### Not (!)
 
 Example:
 

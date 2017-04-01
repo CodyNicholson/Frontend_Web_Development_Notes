@@ -1,4 +1,4 @@
-#Workflow Notes
+# Workflow Notes
 
 Don't use large pictures unless your users will be scaling that picture up
 

@@ -1,4 +1,4 @@
-#Getting User Input
+# Getting User Input
 
 To get user input we use **.get**
 

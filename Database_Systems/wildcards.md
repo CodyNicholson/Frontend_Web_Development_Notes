@@ -1,4 +1,4 @@
-#Wildcards
+# Wildcards
 
 LIKE compares character strings to strings that include wildcard characters that match anything:
 

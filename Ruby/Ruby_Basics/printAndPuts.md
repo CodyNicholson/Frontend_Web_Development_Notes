@@ -1,6 +1,6 @@
-#Print And Puts
+# Print And Puts
 
-###print
+### print
 
 The print command will print a message to the screen/console
 
@@ -35,7 +35,7 @@ So print statements will all print on the same line, if you want to print multip
 
 ***
 
-###puts
+### puts
 
 **Puts** behaves the same as **Print** but it adds a new line at the end of every statement
 

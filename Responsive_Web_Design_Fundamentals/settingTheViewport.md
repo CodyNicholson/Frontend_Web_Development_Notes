@@ -1,4 +1,4 @@
-#Setting the Viewport
+# Setting the Viewport
 
 To make your webpage have a nice layout on any screen size you need to set the viewport width
 
@@ -12,4 +12,4 @@ To do this you need to add this 'meta' tag inside the 'head' on your webpage:
 
 Setting the viewport width equal to the device width will mean that your webpage will only be as wide as your device screen
 
-The "inital scale equals 1" just means that the the webpage will display at 100% of the browsers width
+The "initial scale equals 1" just means that the the webpage will display at 100% of the browsers width

@@ -1,4 +1,4 @@
-#SrcSet
+# SrcSet
 
 srcsets allow you to change the image that displays at a certain viewport width so you are always giving the user the best ratio of quality for file size
 

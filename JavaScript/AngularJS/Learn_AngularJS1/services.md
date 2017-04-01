@@ -1,4 +1,4 @@
-#Services in Angular
+# Services in Angular
 
 So far we have made AngularJS apps by adding controllers and displaying the controller's data in the view
 
@@ -19,7 +19,7 @@ app.factory('forecast', ['http', function($http){
 
 This service uses Angular's built-in #http to fetch json from a server
 
-We add $http to the forecast serviceas a dependency like this:
+We add $http to the forecast services a dependency like this:
 
 >['$http', function($http){ ... }]
 
@@ -41,11 +41,11 @@ app.controller('ServiceController', ['$scope', 'forecast', function($scope, fore
 
 In this controller we use the forecast service to fetch data from the server
 
-First we added forecat into ServiceController as a dependency so it's available to use
+First we added forecast into ServiceController as a dependency so it's available to use
 
 Within the controller we used forecast to asynchronously fetch the weather data from the server and store it into $scope.fiveDay
 
-ANY property attached to scope becomes availabe in the view, so we can use the weather data stored in fiveDay in our expressions
+ANY property attached to scope becomes available in the view, so we can use the weather data stored in fiveDay in our expressions
 
 -
 
@@ -74,6 +74,6 @@ Displaying this in the view:
 
 -
 
-###Summary
+### Summary
 
-Services avoid having to fill a controller with code to fetch weather data from a server by moving the independant logic into a service so they can be reused by other parts of the app
+Services avoid having to fill a controller with code to fetch weather data from a server by moving the independent logic into a service so they can be reused by other parts of the app

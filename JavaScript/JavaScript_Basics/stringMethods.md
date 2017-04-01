@@ -1,6 +1,6 @@
-#String Methods in Javascript
+# String Methods in Javascript
 
-###.replace():
+### .replace():
 
 ```javascript
 var awesome = "I am awesome";
@@ -16,7 +16,7 @@ $('#main').append(fun);
 
 -
 
-###.toUpperCase() & .toLowerCase():
+### .toUpperCase() & .toLowerCase():
 
 ```javascript
 var str = "hElLo";
@@ -31,7 +31,7 @@ console.log(str);
 
 -
 
-###.split():
+### .split():
 
 ```javascript
 var str = "Some String";
@@ -47,7 +47,7 @@ console.log(strsSplitByO);
 
 -
 
-###.slice():
+### .slice():
 
 ```javascript
 var str = "abcdefgh";

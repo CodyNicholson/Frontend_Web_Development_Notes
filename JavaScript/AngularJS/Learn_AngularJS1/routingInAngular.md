@@ -1,4 +1,4 @@
-#Routing in Angular
+# Routing in Angular
 
 Instead of stuffing code into a single view, we can use multiple templates to display different pieces of data based on the URL the user is visiting
 
@@ -50,7 +50,6 @@ Any properties attached to $scope become available in the view, meaning in photo
 -
 
 Summary:
-
 
 Instead of filling a single view with lots of messy code routes let us map URL's to self-contained controllers & templates
 

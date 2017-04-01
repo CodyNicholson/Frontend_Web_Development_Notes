@@ -1,4 +1,4 @@
-#A Simple JS Function
+# A Simple JS Function
 
 ```javascript
 var s = "audacity";

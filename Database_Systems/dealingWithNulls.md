@@ -1,4 +1,4 @@
-#Dealing With NULLs
+# Dealing With NULLs
 
 Any arithmetic expression involving a NULL will yield NULL (as will most functions)
 To replace NULLs in output, use the function NVL(expr1, expr2)

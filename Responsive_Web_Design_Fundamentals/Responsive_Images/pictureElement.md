@@ -1,4 +1,4 @@
-#Picture Element
+# Picture Element
 
 The 'picture' element is used to offer support for different browsers by providing a priority list for displaying an image
 

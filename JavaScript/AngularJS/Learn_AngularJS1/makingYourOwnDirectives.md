@@ -1,4 +1,4 @@
-#Making your own Directives in Angular
+# Making your own Directives in Angular
 
 Make your own directive in a .js file that should be named after the directive you are creating:
 
@@ -16,9 +16,9 @@ app.directive('appInfo', function(){
 });
 ```
 
-Restrict dpecifies how the directive will be used, 'E' means it will be used as a new web element
+Restrict specifies how the directive will be used, 'E' means it will be used as a new web element
 
-Scope says that we will pass info into this directive through an attribute nameed 'info'
+Scope says that we will pass info into this directive through an attribute named 'info'
 
 The '=' tells the directive to look for an attribute named info in the <app-info> element like this:
 

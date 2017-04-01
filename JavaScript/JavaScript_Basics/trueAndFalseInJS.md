@@ -1,10 +1,10 @@
-#True and False in JavaScript
+# True and False in JavaScript
 
 JavaScript has a very unique way of deciding between true and false
 
 -
 
-###A condition evaluates to true if it is
+### A condition evaluates to true if it is
 
 - true
 - a non-zero number
@@ -15,7 +15,7 @@ JavaScript has a very unique way of deciding between true and false
 
 -
 
-###A condition evaluates to false if it is
+### A condition evaluates to false if it is
 
 - false
 - 0
@@ -26,7 +26,7 @@ JavaScript has a very unique way of deciding between true and false
 
 -
 
-###Example values
+### Example values
 
 1 = True, since it's a non-zero number
 

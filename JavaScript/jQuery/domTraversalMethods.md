@@ -1,4 +1,4 @@
-#DOM Traversal Methods
+# DOM Traversal Methods
 
 ```
 Example DOM Tree, all names are ID's of the element
@@ -14,7 +14,7 @@ Susan Tom   Roy
 
 -
 
-####There are many built in methods in jQuery to select different elements but going up and down the DOM tree
+#### There are many built in methods in jQuery to select different elements but going up and down the DOM tree
 
 
 .parent():
@@ -66,7 +66,7 @@ $('#Susan').siblings();
 
 -
 
-###Example code from lesson
+### Example code from lesson
 
 ```javascript
 var articleList, h1, kids, parents;

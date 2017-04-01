@@ -1,4 +1,4 @@
-#Query Structure
+# Query Structure
 
 General form of a query:
 
@@ -12,7 +12,7 @@ General form of a query:
 
 ***
 
-###Writing a Query
+### Writing a Query
 -
 
 1. SELECT: What values do I have to compute and display?

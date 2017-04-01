@@ -1,4 +1,4 @@
-#Encapsulation
+# Encapsulation
 
 Encapsulation in js is the technique of putting a function inside of an object
 

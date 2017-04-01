@@ -1,4 +1,4 @@
-#Protecting your Site from Other People's JavaScript
+# Protecting your Site from Other People's JavaScript
 
 Imagine someone sets their name on your site equal to:
 

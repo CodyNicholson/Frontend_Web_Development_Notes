@@ -1,4 +1,4 @@
-#Removing a Functional Dependency
+# Removing a Functional Dependency
 
 Suppose R contains the functional dependency XY where X is not a superkey
 

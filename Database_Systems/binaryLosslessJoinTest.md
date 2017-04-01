@@ -1,4 +1,4 @@
-#Binary Lossless Join Test
+# Binary Lossless Join Test
 
 ```
 D = {R1, R2} has the lossless join property if and only if one or both of the following hold:
@@ -12,7 +12,7 @@ That is, if and only if the intersection between the two sets of attributes is a
 
 ***
 
-##General Test for Lossless Join
+## General Test for Lossless Join
 
 ```
 1. Create a matrix S with a row i for each Ri and a column for j for each Aj

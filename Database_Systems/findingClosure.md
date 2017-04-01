@@ -1,4 +1,4 @@
-#Finding a Closure
+# Finding a Closure
 
 To find the closure of X with respect to F:
 
@@ -15,7 +15,7 @@ until oldX+ = X+
 
 ***
 
-###Determining if E Follows from F
+### Determining if E Follows from F
 
 To determine if E follows from F:
 

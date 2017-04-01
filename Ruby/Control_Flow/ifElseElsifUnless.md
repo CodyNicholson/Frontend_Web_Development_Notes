@@ -1,6 +1,6 @@
-#If-Statements & Else & Elsif & Unless
+# If-Statements & Else & Elsif & Unless
 
-###If-Statements
+### If-Statements
 
 If-Statements in Ruby take an ***expression**, which is just a fancy word for something that has a value like: 4, true, "Hello there"
 
@@ -28,7 +28,7 @@ Also notice that the expression, name, has a value of true since **all string ex
 
 ***
 
-###Else
+### Else
 
 What if our expression is false? Then "Hi Cody" would not be printed to the screen and nothing would happen
 
@@ -58,7 +58,7 @@ To check if something is the same as something else we use "==" which is called 
 
 ***
 
-###Elsif
+### Elsif
 
 What if you want to check multiple conditions? Then you need to use **Elsif**
 
@@ -78,11 +78,11 @@ This with check the first condition (x < y) and if that is false it will check t
 
 If **the first condition is true**, it will run the if statement code and none of the other code
 
-If **the second condtion is true**, it will run the elsif code and none of the other code
+If **the second condition is true**, it will run the elsif code and none of the other code
 
 ***
 
-###Unless
+### Unless
 
 What if you want to run code if your condition is false? Then you need an **Unless** statement
 
@@ -101,7 +101,7 @@ This program is saying that **unless I am hungry** I am writing Ruby programs, *
 
 ***
 
-###Useful Comparators
+### Useful Comparators
 
 ```
 >  - greater than
