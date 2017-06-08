@@ -1,4 +1,4 @@
-# Nn-Src Directive
+# Ng-Src Directive
 
 Using Angular Expressions inside a src attribute causes an error
 
