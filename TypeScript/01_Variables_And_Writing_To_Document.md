@@ -1,8 +1,7 @@
 # Variables & Writing To Document
 
 ```ts
-// Variables must start with a letter, _, or $
-// and then can contain numbers
+// Variables must start with a letter, _, or $ and then can contain numbers
  
 // Declaring variables as statically typed is optional
 // If you only provide a value the type is inferred
@@ -21,11 +20,9 @@ anything = 2;
 // You can print in the defined element
 document.getElementById("tsStuff").innerHTML = "My Name is " + myName;
  
-// A variable that didn't get a value assigned
-// gets undefined
+// A variable that didn't get a value assigned gets undefined
  
-// null is a user assigned value saying that
-// no value is assigned
+// null is a user assigned value saying that no value is assigned
  
 // typeof returns the data type
 document.write("myName is a " + typeof(myName) + "<br />");
