@@ -1,6 +1,6 @@
 # TypeScript Tutorial
 
-These are my notes from the TYpeScript tutorial I took made by Derek Banas
+These are my notes from the TypeScript tutorial I took made by Derek Banas
 
 TypeScript brings a type system and future capabilities of JS today
  
