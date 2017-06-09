@@ -1,11 +1,9 @@
 # Conditionals
 
 ```ts
-// If, Switch and the Ternary operator work
-// the same in TypeScript as in JS
+// If, Switch and the Ternary operator work the same in TypeScript as in JS
  
-// Variables defined with let in blocks don't
-// change the value of variables outside the block
+// Variables defined with let in blocks don't change the value of variables outside the block
  
 let sampLet = 123;
 if (true) {
