@@ -1,5 +1,4 @@
 # Relational Model
--
 
 First model that separated the logical organization of the data from its physical organization
 
@@ -251,6 +250,6 @@ An instance of each relation in the database, where each relation instance satis
 
 -referential integrity (and any user-defined constraints)
 
--
+***
 
 The only changes allowed by the DBMS are those that result in another valid instance…

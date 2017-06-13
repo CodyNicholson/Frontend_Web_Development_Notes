@@ -13,7 +13,6 @@ The Transaction manager in the DBMS must handle
 ***
 
 ### ACID Properties
--
 
 Transactions should satisfy the following properties:
 
@@ -47,7 +46,7 @@ Committing changes also insures durability
 
 ***
 
-####Consistency
+#### Consistency
 
 As long as legal SQL is used, the DBMS will insure that database constraints are satisfied
 
@@ -83,8 +82,6 @@ DBMS can “lock” all tables used by a transaction
 
 - Transactions using other tables could run at the same time
 
--
-
 #### Read Committed Isolation
 
 Not as strict as serialize-able
@@ -106,7 +103,6 @@ Stricter “Repeatable Read” level allows phantoms, but not other non-repeatab
 ***
 
 ### Read Uncommitted Isolation
--
 
 What about uncommitted changes?
 
@@ -121,7 +117,6 @@ Reads of uncommitted changes from another transaction are called dirty reads
 ***
 
 ### Isolation Levels
--
 
 **SERIALIZABLE:** Transactions must appear to run serially – cannot read any changes from others
 
@@ -134,7 +129,6 @@ Reads of uncommitted changes from another transaction are called dirty reads
 ***
 
 ### Transactions in Oracle
--
 
 Supports READ COMMITTED (by default) and SERIALIZABLE isolation levels only
 

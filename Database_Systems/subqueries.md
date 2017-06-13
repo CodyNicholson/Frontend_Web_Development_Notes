@@ -11,7 +11,6 @@ The subquery usually appears in a WHERE or HAVING clause and  sometimes in a FRO
 ***
 
 ### Correlated Subqueries
--
 
 A subquery may refer to attributes of the table in the outer query
 

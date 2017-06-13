@@ -1,8 +1,7 @@
 # What is a database?
 
-
 Data is info that can be recorded and has known meaning
-<br>
+
 A database is an organized collection of logically related data that are typically:
 
 - Persistent and stored on a stable medium
@@ -12,10 +11,9 @@ A database is an organized collection of logically related data that are typical
 ***
 
 ### Why use a database system?
--
 
 Early data processing systems used files of data in plain text form
-<br>
+
 Problem: program-data dependence led to limited data sharing, duplication of data, excessive time for development
 
 ***
@@ -28,14 +26,11 @@ Supports different views of and concurrent access to the data
 
 Allows sharing of and concurrent access to data
 
--
-
 The costs are higher overhead for the design, implementation, and maintenance of the data
 
 ***
 
 ### Benefits:
--
 
 - Program-data independence
 - Controlled data redundancy
@@ -47,7 +42,6 @@ The costs are higher overhead for the design, implementation, and maintenance of
 ***
 
 ### Database Management Systems:
--
 
 DBMS: Oracle, IBM DB2, MS Access/SQL Server, MySQL
 

@@ -12,7 +12,6 @@ Result is an ordered set of ordered tuples
 ___
 
 ### Select
--
 
 SELECT list of expressions …
 
@@ -25,7 +24,6 @@ SELECT list of expressions …
 ___
 
 ### From
--
 
 Select FROM set of records
 
@@ -37,14 +35,12 @@ Select FROM set of records
 ___
 
 ### Where
--
 
 Select thing from list… WHERE condition on tuples …
-<br>
+
 Each tuple is tested against the condition, and only those that satisfy it are returned by the query
-<br>
+
 Condition expression can contain:
 - comparisons
 - expressions with wildcards (for strings)
 - logical operators
-

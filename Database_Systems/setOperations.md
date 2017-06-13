@@ -22,7 +22,7 @@ Combine the results of two queries, as long as the results contain compatible tu
 - MINUS: tuples that appear in the first result but not in the second
 - The final result must be a set, so duplicates are removed from the two results first…
 
--
+***
 
 To keep duplicates: For each tuple, if it appears i times in the first result and j times in the second result, then in the final result:
 

@@ -39,6 +39,7 @@ Will be executed directly, like an SQL script:
     end;
     /
 ```
+
 ***
 
 ### PL/SQL Statements
@@ -118,8 +119,6 @@ SQL data types are available (e.g., number, char, varchar2), plus binary_integer
 
 Assignments use :=, and PL/SQL has typical arithmetic operations
 
--
-
 Only one variable can be declared per line, but variable types can be given in terms of the domain of another variable or attribute:
 
 ```
@@ -141,8 +140,6 @@ if condition then
 end if;
 ```
 
--
-
 if-else:
 
 ```
@@ -152,8 +149,6 @@ els
     …’false’ statements…
 end if;
 ```
-
--
 
 if-elsif:
 
@@ -169,8 +164,6 @@ else
     … ‘all f’ statements…
 end if;
 ```
-
--
 
 Case:
 
@@ -200,8 +193,6 @@ end loop;
 
 Repeats until exit; is executed in loop body
 
--
-
 While loop:
 
 ```
@@ -211,8 +202,6 @@ end loop;
 ```
 
 Repeats until condition is false
-
--
 
 For loop:
 
@@ -254,8 +243,6 @@ cursor name is query;
 ```
 
 Cursor name can be used to iterate through the records returned by query
-
--
 
 ### Cursor Commands/Expressions
 
@@ -374,8 +361,6 @@ END;
 /
 ```
 
--
-
 #### BEFORE
 
 Indicates that queries on TABLE will be done on the state of the table before the triggering operation executes
@@ -384,8 +369,6 @@ Indicates that queries on TABLE will be done on the state of the table before th
 
 Indicates that queries on TABLE will be done on the state that the table would be in after the triggering operation executes
 
--
-
 #### INSERT OR DELETE OR UPDATE [OF Attribute] ON TABLE
 
 What operation(s) will cause the trigger to fire?
@@ -393,8 +376,6 @@ What operation(s) will cause the trigger to fire?
 Trigger will fire in response to any INSERT or DELETE
 
 Trigger may be set to fire in response to any UPDATE, or only an UPDATE of a particular attribute
-
--
 
 #### REFERENCING OLD AS OldName, NEW AS NewName
 
@@ -406,8 +387,6 @@ The original and modified states of the row being operated upon are called “ol
 
 - UPDATE has both “old” and “new”
 
--
-
 #### FOR EACH ROW
 
 If not included, indicates a statement-level trigger that will fire just once for the entire operation
@@ -416,8 +395,6 @@ If included, indicates a row-level trigger that will fire once for each row that
 
 - … so an UPDATE or DELETE that applies to multiple rows will cause the trigger to fire more than once for the operation …
 
--
-
 #### WHEN (condition)
 
 Condition tested to see whether or not the trigger action will actually execute
@@ -425,8 +402,6 @@ Condition tested to see whether or not the trigger action will actually execute
 - Statement-level: will query original or modified table state depending on whether BEFORE or AFTER is used
 
 - Row-level: can reference original and modified row states with “old” and “new” (INSERT has only “new”, DELETE has only “old”, UPDATE has both!)
-
--
 
 #### PL/SQL statements
 

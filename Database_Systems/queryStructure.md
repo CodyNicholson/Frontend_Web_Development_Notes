@@ -13,7 +13,6 @@ General form of a query:
 ***
 
 ### Writing a Query
--
 
 1. SELECT: What values do I have to compute and display?
 2. FROM: What table should I use?

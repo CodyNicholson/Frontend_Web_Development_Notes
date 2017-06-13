@@ -10,7 +10,7 @@ Construct a decomposition of R into relations
  D = {R1, R2, …, Rm}
 Each Ri is a subset of R
 
--
+***
 
 The decomposition D = {R1, R2, …, Rm} should satisfy the following conditions:
 
@@ -48,7 +48,7 @@ A set of attributes Y = {Y1, Y2, …, Yn} is functionally dependent on a set of 
 
 (Less formally, “the values of X uniquely determine the values of Y”…)
 
--
+***
 
 “Every pair of tuples that have the same values on X also have the same values on Y”
 
@@ -59,7 +59,6 @@ A set of attributes Y = {Y1, Y2, …, Yn} is functionally dependent on a set of 
 ***
 
 ### Finding Functional Dependencies
--
 
 DVD ( DVDID , MovieID , Title , Genre ,     Length , Rating )
 
@@ -80,16 +79,12 @@ If X -> Y1, Y2, …, Ym , then
 
 “The splitting rule”
 
--
-
 ```
 If X -> Y1 and X -> Y2 … and X -> Ym ,
     then X -> Y1, Y2, …, Ym
 ```
 
 “The combining rule”
-
--
 
 ```
 If X1, X2, …, Xm -> Y1, Y2, …, Yn  and
@@ -121,8 +116,6 @@ How to tell if X -> Y in set E can be derived from the functional dependencies i
 
 For F and a set of attributes X, the closure of X with respect to F (written X+) is the set of all attributes that can be determined from X
 
--
-
 ### Finding a Closure
 
 To find the closure of X with respect to F:
@@ -135,8 +128,6 @@ repeat
         if X+ includes W, then set X+ = X+ U  Z
 until old X+ = X+
 ```
-
--
 
 ### Determining if E Follows from F
 
@@ -185,4 +176,3 @@ Given R = {A1, A2, …, An}, find a decomposition D = {R1, R2, …, Rm} that sat
 3. D has the dependency preservation property
 
 4. D has the lossless join property
-

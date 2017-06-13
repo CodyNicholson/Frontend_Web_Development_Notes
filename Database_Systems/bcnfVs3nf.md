@@ -8,8 +8,6 @@ A relation R is in Boyce-Codd Normal Form (BCNF) if for every non-trivial functi
 
 A relation in BCNF will not have any redundancy, since every functional dependency in the relation will have a superkey as its determinant
 
--
-
 ### BCNF Decomposition Algorithm
 
 ```
@@ -57,8 +55,6 @@ A minimal basis of F is a set G that is equivalent to F and is “as small as po
     2. No X -> A can be replaced with Y -> A, where Y is a proper subset of X, and still be equivalent to F
 
     3. No X -> A can be removed and still be equivalent to F
-
--
 
 ### Constructing a Minimal Basis
 
@@ -120,8 +116,6 @@ INVOICE ( OrderID, OrderDate, CustomerID, Name, Address, ProductID, Description,
 
 - Verify dependency preservation and lossless join?
 
--
-
 OrderId -> OrderDate, CustomerID, Name, Address
 
 CustomerID -> Name, Address
@@ -137,8 +131,6 @@ Prime Attributes: OrderID, ProductID
 BCNF? No
 
 3NF? No
-
--
 
 #### BCNF Decomposition:
 
@@ -157,8 +149,6 @@ OrderID -> OrderDate, CustomerID
 ##### R$(ProductID, Description, Finish, Price)
 
 ProductID -> Description, Finish, Price
-
--
 
 #### 3NF Decomposition
 

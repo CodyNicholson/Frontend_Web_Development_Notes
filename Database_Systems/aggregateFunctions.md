@@ -15,15 +15,12 @@ MAX(…): Largest of the values
 ***
 
 ### Group By
--
 
 … GROUP BY grouping attributes …
 
 - Combines the tuples into sets based on the value(s) of some attribute(s)
 - Can only display the value(s) of this attribute(s) and/or aggregate information for each group
 - If we group tuples into sets, we cannot look at the values in the individual tuples anymore…
-
--
 
 Example:
 

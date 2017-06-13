@@ -24,7 +24,7 @@ An update-able view must:
 
 - not involve a subquery on the base table
 
--
+***
 
 If a view is update-able, all updates are allowed by default
 

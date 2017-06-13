@@ -6,8 +6,6 @@ Each file consists of a collection of records, each corresponding to one row of 
 
 Each record consists of a collection of fields, each corresponding to one attribute of the table
 
--
-
 Each table is stored in a separate file, where each file is of a collection of n records that represent the rows
 
 - Unordered file: No guarantee on the order of the records

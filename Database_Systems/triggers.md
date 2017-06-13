@@ -12,7 +12,7 @@ A trigger is a procedure that is executed in response to a particular database o
     END;
 ```
 
--
+***
 
 Triggers allow general responses to changes in the database state, e.g.:
 
@@ -26,7 +26,7 @@ Triggers allow general responses to changes in the database state, e.g.:
 
 - Implementation of multi-table constraints
 
--
+***
 
 A trigger definition must specify:
 
@@ -55,7 +55,7 @@ A trigger definition must specify:
         /
 ```
 
--
+***
 
 BEFORE
 
@@ -65,7 +65,7 @@ AFTER
 
 - Indicates that queries on TABLE will be done on the state that the table would be in after the triggering operation executes
 
--
+***
 
 INSERT OR DELETE OR
     UPDATE [OF Attribute] ON TABLE
@@ -76,7 +76,7 @@ INSERT OR DELETE OR
 
     - Trigger may be set to fire in response to any UPDATE, or only an UPDATE of a particular attribute
 
--
+***
 
 REFERENCING OLD AS OldName, NEW AS NewName
 
@@ -88,7 +88,7 @@ REFERENCING OLD AS OldName, NEW AS NewName
 
     - UPDATE has both “old” and “new”
 
--
+***
 
 FOR EACH ROW
 
@@ -98,7 +98,7 @@ FOR EACH ROW
 
     - … so an UPDATE or DELETE that applies to multiple rows will cause the trigger to fire more than once for the operation …
 
--
+***
 
 WHEN (condition)
 
@@ -108,7 +108,7 @@ WHEN (condition)
 
     - Row-level: can reference original and modified row states with “old” and “new” (INSERT has only “new”, DELETE has only “old”, UPDATE has both!)
 
--
+***
 
 PL/SQL statements
 
