@@ -10,8 +10,6 @@ In Python you can create a dictionary that stoes pairs of keys and values, like 
 dictionaryName = {'Key1':'Value1', 'Key2':'Value2'}
 ```
 
--
-
 #### Now that we have this dictionary we can explore the dictionary API
 
 ```python
@@ -20,15 +18,11 @@ dictionaryName = {'Key1':'Value1', 'Key2':'Value2'}
 dictionaryName
 ```
 
--
-
 ```python
 #This will return the value of Key1: Value1
 
 dictionaryName['Key1']
 ```
-
--
 
 ```python
 #The below code will create a new dictionary that has all the pairs stored in the dictionaryName dictionary, then it will return those pairs
@@ -38,8 +32,6 @@ newDictionary = dictionaryName.copy()
 newDictionary
 ```
 
--
-
 ```python
 #The below code will delete all the pairs stoed in dictionaryName, and will then return the empty dictionary: {}
 
@@ -47,8 +39,6 @@ dictionaryName.clear()
 
 dictionaryName
 ```
-
--
 
 ```python
 #Lastly, the below code will check if newDictionary contains the Key "Apples", this will return false
