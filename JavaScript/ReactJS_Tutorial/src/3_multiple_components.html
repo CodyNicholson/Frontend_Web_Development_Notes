@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React - Multiple Components</title>
+    <script src="lib/js/react.min.js"></script>
+    <script src="lib/js/react-dom.min.js"></script>
+    <script src="lib/js/browser.min.js"></script>
+</head>
+<body>
+
+    <div id="example"></div>
+
+    <script type="text/babel">
+        var ExampleComponent = React.createClass({
+            render: function () {
+                return (
+                    <div id='parentDiv'>
+                        <h2>This is the first child of the parent div</h2>
+                        <p>This is the second child of the parent div</p>
+                    </div>
+                );
+            }
+        });
+        ReactDOM.render(
+            <div id='parentDiv'>
+                <ExampleComponent />
+                <ExampleComponent />
+                <ExampleComponent />
+            </div>,
+            document.getElementById('example'));
+    </script>
+
+</body>
+</html>

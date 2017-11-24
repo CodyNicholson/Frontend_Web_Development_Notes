@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React - Multiple Components</title>
+    <script src="lib/js/react.min.js"></script>
+    <script src="lib/js/react-dom.min.js"></script>
+    <script src="lib/js/browser.min.js"></script>
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script type="text/babel">
+        var Movie = React.createClass({
+            render: function () {
+                return (
+                    <div id='insideParentDiv'>
+                        <h2>{this.props.title}</h2>
+                        <p>{this.props.genre}</p>
+                    </div>
+                );
+            }
+        });
+        ReactDOM.render(
+            <div id='outsideParentDiv'>
+                <Movie title="Avatar" genre="action" />
+                <Movie title="Get Smart" genre="comedy" />
+                <Movie title="The Notebook" genre="romance" />
+            </div>,
+            document.getElementById('container'));
+    </script>
+
+</body>
+</html>
