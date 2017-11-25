@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React - Multiple Components</title>
+    <link rel="stylesheet" type="text/css" href="lib/css/main.css">
+    <script src="lib/js/react.min.js"></script>
+    <script src="lib/js/react-dom.min.js"></script>
+    <script src="lib/js/browser.min.js"></script>
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script type="text/babel">
+        var Comment = React.createClass({
+            getInitialState: function () {
+                return {editing: false}
+            },
+            edit: function () {
+                this.setState({editing: true});
+            },
+            save: function () {
+                this.setState({editing: false});
+            },
+            remove: function () {
+                alert('Removing comment');
+            },
+            renderNormal: function () {
+                return (
+                    <div id='commentContainer'>
+                        <div className="commentText">{this.props.children}</div>
+                        <button onClick={this.edit} className="button-primary">Edit</button>
+                        <button onClick={this.remove} className="button-danger">Remove</button>
+                    </div>
+                );
+            },
+            renderForm: function () {
+                return (
+                    <div>
+                        <textarea defaultValue={this.props.children}></textarea>
+                        <button onClick={this.save} className="button-success">Save</button>
+                    </div>
+                );
+            },
+            render: function () {
+                if(!this.state.editing)
+                {
+                    return this.renderNormal();
+                }
+                else
+                {
+                    return this.renderForm();
+                }
+            }
+        });
+        ReactDOM.render(
+            <div className='board'>
+                <Comment>Title One</Comment>
+                <Comment>Title Two</Comment>
+                <Comment>Title Three</Comment>
+                <Comment>Title Four</Comment>
+            </div>,
+            document.getElementById('container'));
+    </script>
+
+</body>
+</html>

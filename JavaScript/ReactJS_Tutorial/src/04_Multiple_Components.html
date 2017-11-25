@@ -16,7 +16,7 @@
         var ExampleComponent = React.createClass({
             render: function () {
                 return (
-                    <div id='parentDiv'>
+                    <div id='insideParentDiv'>
                         <h2>This is the first child of the parent div</h2>
                         <p>This is the second child of the parent div</p>
                     </div>
@@ -24,7 +24,7 @@
             }
         });
         ReactDOM.render(
-            <div id='parentDiv'>
+            <div id='outsideParentDiv'>
                 <ExampleComponent />
                 <ExampleComponent />
                 <ExampleComponent />
