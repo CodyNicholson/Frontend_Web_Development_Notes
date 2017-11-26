@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>React - Adding State To Components</title>
+    <title>React - Multiple Child Components</title>
     <link rel="stylesheet" type="text/css" href="lib/css/main.css">
     <script src="lib/js/react.min.js"></script>
     <script src="lib/js/react-dom.min.js"></script>
@@ -22,6 +22,8 @@
                 this.setState({editing: true});
             },
             save: function () {
+                var val = this.refs.newText.value;
+                console.log('New Comment: ' + val);
                 this.setState({editing: false});
             },
             remove: function () {
@@ -39,7 +41,7 @@
             renderForm: function () {
                 return (
                     <div>
-                        <textarea defaultValue={this.props.children}></textarea>
+                        <textarea ref="newText" defaultValue={this.props.children}></textarea>
                         <button onClick={this.save} className="button-success">Save</button>
                     </div>
                 );
@@ -55,13 +57,31 @@
                 }
             }
         });
+        var Board = React.createClass({
+            getInitialState: function () {
+                return {
+                    comments: [
+                        'Title one',
+                        'Title two',
+                        'Title three',
+                        'Title four'
+                    ]
+                }
+            },
+            render: function () {
+                return (
+                    <div className="board">
+                        {
+                            this.state.comments.map(function (text, i) {
+                                return (<Comment key={i}>{text}</Comment>);
+                            })
+                        }
+                    </div>
+                );
+            }
+        });
         ReactDOM.render(
-            <div className='board'>
-                <Comment>Title One</Comment>
-                <Comment>Title Two</Comment>
-                <Comment>Title Three</Comment>
-                <Comment>Title Four</Comment>
-            </div>,
+            <Board />,
             document.getElementById('container'));
     </script>
 

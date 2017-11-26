@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>React - Event Handling</title>
+    <title>React - Refs</title>
     <link rel="stylesheet" type="text/css" href="lib/css/main.css">
     <script src="lib/js/react.min.js"></script>
     <script src="lib/js/react-dom.min.js"></script>
@@ -15,13 +15,21 @@
 
     <script type="text/babel">
         var Comment = React.createClass({
+            getInitialState: function () {
+                return {editing: false}
+            },
             edit: function () {
-                alert('Editing comment');
+                this.setState({editing: true});
+            },
+            save: function () {
+                var val = this.refs.newText.value;
+                console.log('New Comment: ' + val);
+                this.setState({editing: false});
             },
             remove: function () {
                 alert('Removing comment');
             },
-            render: function () {
+            renderNormal: function () {
                 return (
                     <div id='commentContainer'>
                         <div className="commentText">{this.props.children}</div>
@@ -29,6 +37,24 @@
                         <button onClick={this.remove} className="button-danger">Remove</button>
                     </div>
                 );
+            },
+            renderForm: function () {
+                return (
+                    <div>
+                        <textarea ref="newText" defaultValue={this.props.children}></textarea>
+                        <button onClick={this.save} className="button-success">Save</button>
+                    </div>
+                );
+            },
+            render: function () {
+                if(!this.state.editing)
+                {
+                    return this.renderNormal();
+                }
+                else
+                {
+                    return this.renderForm();
+                }
             }
         });
         ReactDOM.render(
